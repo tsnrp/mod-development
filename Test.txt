@@ -1,2 +1,5 @@
 Change Log:
+Modified artemis.ini file
+Changed several values just for the hell of it!
 random edits to Artimis and xavier  file
+
