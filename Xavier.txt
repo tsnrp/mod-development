@@ -1,10 +1,4 @@
 Hello World
-<<<<<<< Updated upstream
-
-And Again, hello world
-=======
 And Again, hello world
 World Likes You!
-
 And yet..... there is a pandemic!
->>>>>>> Stashed changes
