@@ -126,6 +126,18 @@
     <taunt immunity="is a decorated hero who ignores taunts about her bravery" text="Only a coward hides in a massive battlewagon like that!"/>
     <taunt immunity="is a human who has never even seen the Ximni homeworld" text="The only thing that smells worse than dragon breath is the Ximni home planet!"/>
   </hullRace>
+	
+	  <hullRace ID="20" name="Kzinti" keys="FactionKzinti">
+    <taunt immunity="is popular with their crew" text="Your two steps from a muntiney!"/>
+    <taunt immunity="is known as a good astronavigator" text="You could not find your way out of space dock!"/>
+    <taunt immunity="is openly hostile to the admrialty" text="your Admiral could not find his rear with a guide book!"/>
+  </hullRace>
+	
+	  <hullRace ID="21" name="Unknown" keys="FactionUnknown">
+    <taunt immunity="has no Intel Avalible" text="The deadliest weapon on your ship is your ugly, face!"/>
+    <taunt immunity="has no Intel Avalible" text="Only a coward hides in a massive battlewagon like that!"/>
+    <taunt immunity="has no Intel Avalible" text="You call that a warship? I could crush that toy with my bare hands."/>
+  </hullRace>
 
     <!-- ****************************** TSN capital ships 0 - 7**************************************** -->
   <vessel    uniqueID="0"    side="0"       classname="Artemis Class" broadType="player">
@@ -3174,5 +3186,195 @@
     <engine_port x="0" y="7.4" z="-21.2"/>
     <long_desc text="Ximni Long Range Shuttle^Armed only with a small laser, this shuttle is known as the Party Ride."/>
   </vessel>
-
+<vessel uniqueID="7600" side="20" classname="Unknown Vessel" broadType="small">
+    <art meshfile="dat/TSN/Neutrals/TriRev.dxs" diffuseFile="dat/TSN/Neutrals/tri_dif.png" glowFile="dat/TSN/Neutrals/tri_glow.png" specularFile="dat/TSN/Neutrals/tri_Spec.png" scale="0.25" pushRadius="175"/>
+    <!-- Weapons and Shields modified (1/4)-->
+	<shields front="40" back="30"/>
+    <performance turnrate="0.004" topspeed="0.75"/>
+    <fleet_ai commonality="10"/>
+    <drone_port x=" 84" y="-4" z="286" damage="2" cycletime="2.0" range="2000"/>
+    <beam_port x="0" y="2.5" z="-371.50" damage="5.5" arcwidth="0.175" cycletime="1.0" range="750"/>
+    <beam_port x="0" y="2.5" z="-371.50" damage="4.25" arcwidth="0.03" cycletime="1.0" range="1500"/>
+    <beam_port x="134.42" y="0" z="100.82" damage="5" arcwidth="0.03" cycletime="4.0" range="1000"/>
+    <beam_port x="-134.42" y="0" z="100.82" damage="5" arcwidth="0.03" cycletime="4.0" range="1000"/>
+    <engine_port x="0" y="2.5" z="-371.50"/>
+    <engine_port x="0" y="2.5" z="-401.50"/>
+    <engine_port x="0" y="2.5" z="-431.50"/>
+    <engine_port x="0" y="2.5" z="-461.50"/>
+    <engine_port x="0" y="2.5" z="-491.50"/>
+    <engine_port x="0" y="2.5" z="-521.50"/>
+    <engine_port x="0" y="2.5" z="-551.50"/>
+    <engine_port x="0" y="2.5" z="-581.50"/>
+    <engine_port x="0" y="2.5" z="-611.50"/>
+    <engine_port x="0" y="2.5" z="-641.50"/>
+    <engine_port x="0" y="2.5" z="-671.50"/>
+    <engine_port x="0" y="2.5" z="-701.50"/>
+    <engine_port x="0" y="2.5" z="-731.50"/>
+    <engine_port x="0" y="2.5" z="-761.50"/>
+    <engine_port x="0" y="2.5" z="-791.50"/>
+    <engine_port x="0" y="2.5" z="-821.50"/>
+    <engine_port x="0" y="2.5" z="-851.50"/>
+    <engine_port x="0" y="2.5" z="-881.50"/>
+    <engine_port x="0" y="2.5" z="-911.50"/>
+    <engine_port x="0" y="2.5" z="-941.50"/>
+    <engine_port x="0" y="2.5" z="-971.50"/>
+    <engine_port x="0" y="2.5" z="-1001.50"/>
+    <engine_port x="0" y="2.5" z="-1031.50"/>
+    <engine_port x="0" y="2.5" z="-1061.50"/>
+    <engine_port x="0" y="2.5" z="-1091.50"/>
+    <engine_port x="0" y="2.5" z="-1121.50"/>
+    <engine_port x="0" y="2.5" z="-1151.50"/>
+    <engine_port x="0" y="2.5" z="-1181.50"/>
+    <engine_port x="0" y="2.5" z="-1211.50"/>
+    <engine_port x="0" y="2.5" z="-1241.50"/>
+    <engine_port x="0" y="2.5" z="-1271.50"/>
+    <engine_port x="0" y="2.5" z="-1301.50"/>
+    <engine_port x="0" y="2.5" z="-1331.50"/>
+    <engine_port x="0" y="2.5" z="-1361.50"/>
+    <engine_port x="0" y="2.5" z="-1391.50"/>
+    <engine_port x="0" y="2.5" z="-1421.50"/>
+    <engine_port x="0" y="2.5" z="-1451.50"/>
+    <engine_port x="0" y="2.5" z="-1481.50"/>
+    <impulse_point x="0" y="2.5" z="-371.50"/>
+    <maneuver_point x="134.42" y="0" z="100.82"/>
+    <maneuver_point x="-134.42" y="0" z="100.82"/>
+    <long_desc text="Unknown vessel. Shields match Skarran export models. Reaction drive system is highly energetic, avoid zones in red. Vessel primary armamant appears to be short range, low damage drone launchers."/> 
+  </vessel>    
+  
+  <vessel uniqueID="7601" side="20" classname="Unknown Transport" broadType="small">
+    <art meshfile="dat/TSN/Neutrals/TriRev.dxs" diffuseFile="dat/TSN/Neutrals/tri_dif.png" glowFile="dat/TSN/Neutrals/tri_glow.png" specularFile="dat/TSN/Neutrals/tri_Spec.png" scale="0.25" pushRadius="175"/>
+    <!-- Weapons and Shields modified (1/4)-->
+	<shields front="40" back="30"/>
+    <performance turnrate="0.003" topspeed="0.5"/>
+    <fleet_ai commonality="10"/>
+    <drone_port x=" 84" y="-4" z="286" damage="4" cycletime="6.0" range="3000"/>
+    <beam_port x="56.31" y="-16.16" z="-409.5" damage="4.25" arcwidth="0.03" cycletime="1.0" range="1500"/>
+    <beam_port x="-56.31" y="-16.16" z="-409.5" damage="4.25" arcwidth="0.03" cycletime="1.0" range="1500"/>
+    <beam_port x="182.37" y="-17.78" z="202.89" damage="5" arcwidth="0.03" cycletime="4.0" range="1000"/>
+    <beam_port x="-182.37" y="-17.78" z="202.89" damage="5" arcwidth="0.03" cycletime="4.0" range="1000"/>
+    <engine_port x="56.31" y="-16.16" z="-409.5"/>
+    <engine_port x="63.31" y="-16.16" z="-459.5"/>
+    <engine_port x="70.31" y="-16.16" z="-509.5"/>
+    <engine_port x="77.31" y="-16.16" z="-559.5"/>
+    <engine_port x="84.31" y="-16.16" z="-609.5"/>
+    <engine_port x="91.31" y="-16.16" z="-659.5"/>
+    <engine_port x="98.31" y="-16.16" z="-709.5"/>
+    <engine_port x="105.31" y="-16.16" z="-759.5"/>
+    <engine_port x="112.31" y="-16.16" z="-809.5"/>
+    <engine_port x="119.31" y="-16.16" z="-859.5"/>
+    <engine_port x="126.31" y="-16.16" z="-909.5"/>
+    <engine_port x="133.31" y="-16.16" z="-959.5"/>
+    <engine_port x="140.31" y="-16.16" z="-1009.5"/>
+    <engine_port x="147.31" y="-16.16" z="-1059.5"/>
+    <engine_port x="154.31" y="-16.16" z="-1109.5"/>
+    <engine_port x="161.31" y="-16.16" z="-1159.5"/>
+    <engine_port x="168.31" y="-16.16" z="-1209.5"/>
+    <engine_port x="175.31" y="-16.16" z="-1259.5"/>
+    <engine_port x="182.31" y="-16.16" z="-1309.5"/>
+    <engine_port x="189.31" y="-16.16" z="-1359.5"/>
+    <engine_port x="196.31" y="-16.16" z="-1409.5"/>
+    <engine_port x="203.31" y="-16.16" z="-1459.5"/>
+    <engine_port x="-56.31" y="-16.16" z="-409.5"/>
+    <engine_port x="-63.31" y="-16.16" z="-459.5"/>
+    <engine_port x="-70.31" y="-16.16" z="-509.5"/>
+    <engine_port x="-77.31" y="-16.16" z="-559.5"/>
+    <engine_port x="-84.31" y="-16.16" z="-609.5"/>
+    <engine_port x="-91.31" y="-16.16" z="-659.5"/>
+    <engine_port x="-98.31" y="-16.16" z="-709.5"/>
+    <engine_port x="-105.31" y="-16.16" z="-759.5"/>
+    <engine_port x="-112.31" y="-16.16" z="-809.5"/>
+    <engine_port x="-119.31" y="-16.16" z="-859.5"/>
+    <engine_port x="-126.31" y="-16.16" z="-909.5"/>
+    <engine_port x="-133.31" y="-16.16" z="-959.5"/>
+    <engine_port x="-140.31" y="-16.16" z="-1009.5"/>
+    <engine_port x="-147.31" y="-16.16" z="-1059.5"/>
+    <engine_port x="-154.31" y="-16.16" z="-1109.5"/>
+    <engine_port x="-161.31" y="-16.16" z="-1159.5"/>
+    <engine_port x="-168.31" y="-16.16" z="-1209.5"/>
+    <engine_port x="-175.31" y="-16.16" z="-1259.5"/>
+    <engine_port x="-182.31" y="-16.16" z="-1309.5"/>
+    <engine_port x="-189.31" y="-16.16" z="-1359.5"/>
+    <engine_port x="-196.31" y="-16.16" z="-1409.5"/>
+    <engine_port x="-203.31" y="-16.16" z="-1459.5"/>
+    <impulse_point x="56.31" y="-16.16" z="-409.5"/>
+    <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
+    <maneuver_point x="182.37" y="-17.78" z="202.89"/>
+    <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
+    <long_desc text="Unknown Transport. Shields match Skarran export models. Reaction drive system is highly energetic, avoid zones in red. Vessel primary armamant appears to be short range, low damage drone launchers."/> 
+  </vessel>
+	
+	<vessel uniqueID="7700" side="21" classname="BC" broadType="Large">
+    <art meshfile="dat/TSN/Neutrals/F3.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
+    <shields front="40" back="30"/>
+    <performance turnrate="0.003" topspeed="0.5"/>
+    <fleet_ai commonality="10"/>
+    <drone_port x=" 84" y="-4" z="286" damage="10" cycletime="30.0" range="3000"/>
+    <beam_port x="0" y="-16.16" z="-0" damage="4.25" arcwidth="0.3" cycletime="6.0" range="1500"/>
+    <engine_port x="136" y="-73" z="-465"/>
+    <engine_port x= "-136" y="-73" z="-465"/>
+    <engine_port x="91" y="-73" z="-465"/>
+    <engine_port x= "-91" y="-73" z="-465"/>
+   <engine_port x="136" y="73" z="-465"/>
+    <engine_port x= "-136" y="73" z="-465"/>
+    <engine_port x="91" y="73" z="-465"/>
+    <engine_port x= "-91" y="73" z="-465"/>
+    <impulse_point x="56.31" y="-16.16" z="-409.5"/>
+    <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
+    <maneuver_point x="182.37" y="-17.78" z="202.89"/>
+    <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
+    <long_desc text="Battle Cruiser"/> 
+  </vessel>
+		<vessel uniqueID="7701" side="21" classname="DD" broadType="small">
+    <art meshfile="dat/TSN/Neutrals/G3.dxs" diffuseFile="dat/TSN/Neutrals/G3_Dif.png" glowFile="dat/TSN/Neutrals/G3_Glow.png" specularFile="dat/TSN/Neutrals/G3_Spec.png" scale="0.25" pushRadius="250"/>
+    <shields front="40" back="30"/>
+    <performance turnrate="0.003" topspeed="0.5"/>
+    <fleet_ai commonality="90"/>
+    <drone_port x=" 84" y="-4" z="286" damage="10" cycletime="30.0" range="3000"/>
+    <beam_port x="0" y="-16.16" z="-0" damage="4.25" arcwidth="0.3" cycletime="6.0" range="1500"/>
+    <engine_port x= "-149" y="161" z="-508"/>
+    <engine_port x= "149" y="161" z="-508"/>
+    <engine_port x= "-149" y="-161" z="-508"/>
+    <engine_port x= "149" y="-161" z="-508"/>
+    <impulse_point x="56.31" y="-16.16" z="-409.5"/>
+    <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
+    <maneuver_point x="182.37" y="-17.78" z="202.89"/>
+    <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
+    <long_desc text="Destroyer"/> 
+  </vessel>
+	
+			<vessel uniqueID="7702" side="21" classname="Cargo" broadType="small">
+    <art meshfile="dat/TSN/Neutrals/F4.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
+    <shields front="40" back="30"/>
+    <performance turnrate="0.003" topspeed="0.5"/>
+    <fleet_ai commonality="90"/>
+    <drone_port x=" 84" y="-4" z="286" damage="10" cycletime="30.0" range="3000"/>
+    <beam_port x="0" y="-16.16" z="-0" damage="4.25" arcwidth="0.3" cycletime="6.0" range="1500"/>
+    <engine_port x= "-149" y="161" z="-508"/>
+    <engine_port x= "149" y="161" z="-508"/>
+    <engine_port x= "-149" y="-161" z="-508"/>
+    <engine_port x= "149" y="-161" z="-508"/>
+    <impulse_point x="56.31" y="-16.16" z="-409.5"/>
+    <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
+    <maneuver_point x="182.37" y="-17.78" z="202.89"/>
+    <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
+    <long_desc text="Mixed Passanger and cargo Ship"/> 
+  </vessel>
+				<vessel uniqueID="7703" side="21" classname="Platform" broadType="small">
+    <art meshfile="dat/TSN/Neutrals/F2S.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
+    <shields front="40" back="30"/>
+    <performance turnrate="0.0003" topspeed="0.0"/>
+    <fleet_ai commonality="90"/>
+    <drone_port x=" 84" y="-4" z="286" damage="10" cycletime="30.0" range="4000"/>
+    <beam_port x="10" y="16.16" z="-0" damage="4.25" arcwidth="1.0" cycletime="6.0" range="4000"/>
+    <beam_port x="0" y="-16.16" z="-0" damage="4.25" arcwidth="1.0" cycletime="6.0" range="1500"/>
+    <engine_port x= "-149" y="161" z="-508"/>
+    <engine_port x= "149" y="161" z="-508"/>
+    <engine_port x= "-149" y="-161" z="-508"/>
+    <engine_port x= "149" y="-161" z="-508"/>
+    <impulse_point x="56.31" y="-16.16" z="-409.5"/>
+    <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
+    <maneuver_point x="182.37" y="-17.78" z="202.89"/>
+    <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
+    <long_desc text="Static Multi Role Platform"/> 
+  </vessel>
 </vessel_data>
