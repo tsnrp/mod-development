@@ -3331,12 +3331,12 @@
     <fleet_ai commonality="90"/>
     <drone_port x=" 84" y="-4" z="286" damage="10" cycletime="30.0" range="3000"/>
     <beam_port x="0" y="-16.16" z="-0" damage="4.25" arcwidth="0.3" cycletime="6.0" range="1500"/>
-    <engine_port x= "-149" y="161" z="-508"/>
-    <engine_port x= "149" y="161" z="-508"/>
-    <engine_port x= "-149" y="-161" z="-508"/>
-    <engine_port x= "149" y="-161" z="-508"/>
-    <impulse_point x="56.31" y="-16.16" z="-409.5"/>
-    <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
+<engine_port x= "-149" y="161" z="-508"/>
+<engine_port x= "149" y="161" z="-508"/>
+<engine_port x= "-149" y="-161" z="-508"/>
+<engine_port x= "149" y="-161" z="-508"/>
+    <impulse_point x="149" y="-140" z="-500"/>
+    <impulse_point x="-149" y="-100" z="-500"/>
     <maneuver_point x="182.37" y="-17.78" z="202.89"/>
     <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
     <long_desc text="Destroyer"/> 
@@ -3349,12 +3349,20 @@
     <fleet_ai commonality="90"/>
     <drone_port x=" 84" y="-4" z="286" damage="10" cycletime="30.0" range="3000"/>
     <beam_port x="0" y="-16.16" z="-0" damage="4.25" arcwidth="0.3" cycletime="6.0" range="1500"/>
-    <engine_port x= "-149" y="161" z="-508"/>
-    <engine_port x= "149" y="161" z="-508"/>
-    <engine_port x= "-149" y="-161" z="-508"/>
-    <engine_port x= "149" y="-161" z="-508"/>
-    <impulse_point x="56.31" y="-16.16" z="-409.5"/>
-    <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
+    <engine_port x= "-246" y="82" z="-472"/>
+    <engine_port x= "-206" y="82" z="-472"/>
+    <engine_port x= "-226" y="82" z="-490"/>
+    <engine_port x= "-246" y="-79" z="-472"/>
+    <engine_port x= "-206" y="-79" z="-472"/>
+    <engine_port x= "-226" y="-79" z="-490"/>
+    <engine_port x= "246" y="82" z="-472"/>
+    <engine_port x= "206" y="82" z="-472"/>
+    <engine_port x= "226" y="82" z="-490"/>
+    <engine_port x= "246" y="-79" z="-472"/>
+    <engine_port x= "206" y="-79" z="-472"/>
+    <engine_port x= "226" y="-79" z="-490"/>
+    <impulse_point x="168" y="-108" z="-212.5"/>
+    <impulse_point x="-168" y="-108" z="-212.5"/>
     <maneuver_point x="182.37" y="-17.78" z="202.89"/>
     <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
     <long_desc text="Mixed Passanger and cargo Ship"/> 
@@ -3378,3 +3386,4 @@
     <long_desc text="Static Multi Role Platform"/> 
   </vessel>
 </vessel_data>
+232423
