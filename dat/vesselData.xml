@@ -133,7 +133,13 @@
     <taunt immunity="is openly hostile to the admrialty" text="your Admiral could not find his rear with a guide book!"/>
   </hullRace>
 	
-	  <hullRace ID="21" name="Unknown" keys="FactionUnknown">
+	  <hullRace ID="21" name="Unknown A" keys="FactionUnknown">
+    <taunt immunity="has no Intel Avalible" text="The deadliest weapon on your ship is your ugly, face!"/>
+    <taunt immunity="has no Intel Avalible" text="Only a coward hides in a massive battlewagon like that!"/>
+    <taunt immunity="has no Intel Avalible" text="You call that a warship? I could crush that toy with my bare hands."/>
+  </hullRace>
+	
+		  <hullRace ID="22" name="Unknown B" keys="FactionStealth">
     <taunt immunity="has no Intel Avalible" text="The deadliest weapon on your ship is your ugly, face!"/>
     <taunt immunity="has no Intel Avalible" text="Only a coward hides in a massive battlewagon like that!"/>
     <taunt immunity="has no Intel Avalible" text="You call that a warship? I could crush that toy with my bare hands."/>
@@ -3385,7 +3391,7 @@
     <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
     <long_desc text="Static Multi Role Platform"/> 
   </vessel>
-				<vessel uniqueID="7704" side="21" classname="Dusk" broadType="small">
+				<vessel uniqueID="7750" side="22" classname="Dusk" broadType="small">
     <art meshfile="dat/TSN/Neutrals/Stealth_Frigate.dxs" diffuseFile="dat/GenericMesh/shipHull14.png" glowFile="dat/GenericMesh/shipHull14.png" specularFile="dat/GenericMesh/shipHull14.png" scale="0.20" pushRadius="250"/>
     <shields front="40" back="30"/>
     <performance turnrate="0.0003" topspeed="0.0"/>
@@ -3398,7 +3404,7 @@
     <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
     <long_desc text="Dusk class Frigate"/> 
   </vessel>
-					<vessel uniqueID="7705" side="21" classname="Umbra" broadType="Medium">
+					<vessel uniqueID="7751" side="22" classname="Umbra" broadType="Medium">
     <art meshfile="dat/TSN/Neutrals/Stealth_Cruiser.dxs" diffuseFile="dat/GenericMesh/shipHull14.png" glowFile="dat/GenericMesh/shipHull14.png" specularFile="dat/GenericMesh/shipHull14.png" scale="0.25" pushRadius="250"/>
     <shields front="40" back="30"/>
     <performance turnrate="0.0003" topspeed="0.0"/>
@@ -3411,7 +3417,7 @@
     <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
     <long_desc text="Umbra class Cruiser"/> 
   </vessel>
-						<vessel uniqueID="7706" side="21" classname="Eclipse" broadType="Medium">
+    <vessel uniqueID="7752" side="22" classname="Eclipse" broadType="Medium">
     <art meshfile="dat/TSN/Neutrals/Stealth_Dread.dxs" diffuseFile="dat/GenericMesh/shipHull14.png" glowFile="dat/GenericMesh/shipHull14.png" specularFile="dat/GenericMesh/shipHull14.png" scale="0.3" pushRadius="250"/>
     <shields front="40" back="30"/>
     <performance turnrate="0.0003" topspeed="0.0"/>
