@@ -3309,6 +3309,7 @@
     <long_desc text="Unknown Transport. Shields match Skarran export models. Reaction drive system is highly energetic, avoid zones in red. Vessel primary armamant appears to be short range, low damage drone launchers."/> 
   </vessel>
 	
+	
 	<vessel uniqueID="7700" side="21" classname="BC" broadType="Large">
     <art meshfile="dat/TSN/Neutrals/F3.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
     <shields front="70" back="70"/>
@@ -3374,7 +3375,72 @@
     <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
     <long_desc text="Mixed Passanger and cargo Ship"/> 
   </vessel>
-				<vessel uniqueID="7703" side="21" classname="Platform" broadType="small">
+	
+				<vessel uniqueID="7703" side="21" classname="Cargo" broadType="carrier">
+    <art meshfile="dat/TSN/Neutrals/F4.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
+    <shields front="40" back="30"/>
+	<carrierload baycount="4" bomber="2"/>				
+    <performance turnrate="0.003" topspeed="0.5"/>
+    <fleet_ai commonality="2"/>
+    <beam_port x="0" y="-16.16" z="-0" damage="0.25" arcwidth="0.4" cycletime="6.0" range="1000"/>
+    <engine_port x= "-246" y="82" z="-472"/>
+    <engine_port x= "-206" y="82" z="-472"/>
+    <engine_port x= "-226" y="82" z="-490"/>
+    <engine_port x= "-246" y="-79" z="-472"/>
+    <engine_port x= "-206" y="-79" z="-472"/>
+    <engine_port x= "-226" y="-79" z="-490"/>
+    <engine_port x= "246" y="82" z="-472"/>
+    <engine_port x= "206" y="82" z="-472"/>
+    <engine_port x= "226" y="82" z="-490"/>
+    <engine_port x= "246" y="-79" z="-472"/>
+    <engine_port x= "206" y="-79" z="-472"/>
+    <engine_port x= "226" y="-79" z="-490"/>
+    <impulse_point x="168" y="-108" z="-212.5"/>
+    <impulse_point x="-168" y="-108" z="-212.5"/>
+    <maneuver_point x="182.37" y="-17.78" z="202.89"/>
+    <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
+    <long_desc text="Mixed Passanger and cargo Ship with outsized cargo hatches and 10% higher energy readings"/> 
+  </vessel>
+	
+	  <vessel    uniqueID="7704"    side="21"       classname="Fighter" broadType="singleseat">
+    <art     meshfile="dat/ENE_Matt3A.dxs"    diffuseFile="dat/ship4A_diffuse.png"
+             glowFile="dat/ship4A_glow.png"    specularFile="dat/ship4A_specular.png" scale="0.05" pushRadius="80"/>
+   <!-- Weapons and Shields modified (1/4)-->
+	<shields front="0" back="0"/>
+    <performance turnrate="0.01" topspeed="1.2"/>
+    <fleet_ai commonality="99"/>
+    <beam_port x=" 111" y="-1" z="217" damage="0.25" arcwidth="0.3" cycletime="5.0" range="800"/>
+    <beam_port x="-111" y="-1" z="217" damage="0.25" arcwidth="0.3" cycletime="5.0" range="800"/>
+    <engine_port x="0" y="0" z="-230"/>
+    <engine_port x="92" y="-7" z="-240"/>
+    <engine_port x="-92" y="-7" z="-240"/>
+    <impulse_point x="-124" y="-6" z="-248"/>
+    <impulse_point x=" 124" y="-6" z="-248"/>
+    <maneuver_point x="-177" y="-6" z="-132"/>
+    <maneuver_point x=" 177" y="-6" z="-132"/>
+    <long_desc text="Displacement: 0.015 kt. Armament: 2 light beams."/>
+  </vessel>
+	
+		  <vessel    uniqueID="7705"    side="21"       classname="Bomber" broadType="singleseat">
+    <art     meshfile="dat/ENE_Matt3A.dxs"    diffuseFile="dat/ship4A_diffuse.png"
+             glowFile="dat/ship4A_glow.png"    specularFile="dat/ship4A_specular.png" scale="0.05" pushRadius="80"/>
+   <!-- Weapons and Shields modified (1/4)-->
+	<shields front="1" back="1"/>
+    <performance turnrate="0.01" topspeed="1.2"/>
+    <fleet_ai commonality="75"/>
+	<drone_port x=" 84" y="-4" z="286" damage="10" cycletime="15.0" range="2500"/>
+    <beam_port x="0" y="-1" z="217" damage="0.25" arcwidth="0.3" cycletime="5.0" range="800"/>
+    <engine_port x="0" y="0" z="-230"/>
+    <engine_port x="92" y="-7" z="-240"/>
+    <engine_port x="-92" y="-7" z="-240"/>
+    <impulse_point x="-124" y="-6" z="-248"/>
+    <impulse_point x=" 124" y="-6" z="-248"/>
+    <maneuver_point x="-177" y="-6" z="-132"/>
+    <maneuver_point x=" 177" y="-6" z="-132"/>
+    <long_desc text="Displacement: 0.015 kt. Armament: 1 light beams. 4 Wingmounted Drones"/>
+  </vessel>
+	
+				<vessel uniqueID="7706" side="21" classname="Platform" broadType="small">
     <art meshfile="dat/TSN/Neutrals/F2S.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
     <shields front="40" back="30"/>
     <performance turnrate="0.0003" topspeed="0.0"/>
@@ -3390,7 +3456,7 @@
     <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
     <maneuver_point x="182.37" y="-17.78" z="202.89"/>
     <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
-    <long_desc text="Static Multi Role Platform"/> 
+    <long_desc text="Static Multi Role Platform"/>
   </vessel>
 				<vessel uniqueID="7750" side="22" classname="Dusk" broadType="small">
     <art meshfile="dat/TSN/Neutrals/Stealth_Frigate.dxs" diffuseFile="dat/GenericMesh/shipHull14.png" glowFile="dat/GenericMesh/shipHull14.png" specularFile="dat/GenericMesh/shipHull14.png" scale="0.20" pushRadius="250"/>
@@ -3414,7 +3480,7 @@
 <beam_port x="20" y="0" z="178" damage="0.6" arcwidth="0.3" cycletime="6.0" range="1100"/>
     <beam_port x="-20" y="0" z="178" damage="0.6" arcwidth="0.3" cycletime="6.0" range="1100"/>
     <beam_port x="0" y="0" z="-183" damage="0.6" arcwidth="0.3" cycletime="6.0" range="1100"/>
-	    <beam_port x="0" y="0" z="1" damage="1.6" arcwidth="1.0" cycletime="6.0" range="800"/>
+	    <beam_port x="0" y="0" z="1" damage="1.6" arcwidth="1.0" cycletime="5.5" range="800"/>
     <impulse_point x="56.31" y="-16.16" z="-409.5"/>
     <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
     <maneuver_point x="182.37" y="-17.78" z="202.89"/>
@@ -3426,15 +3492,14 @@
     <shields front="75" back="100"/>
     <performance turnrate="0.0003" topspeed="0.3"/>
     <fleet_ai commonality="90"/>
-<beam_port x="20" y="0" z="178" damage="0.6" arcwidth="0.3" cycletime="6.0" range="1100"/>
-    <beam_port x="-20" y="0" z="178" damage="0.6" arcwidth="0.3" cycletime="6.0" range="1100"/>
-    <beam_port x="0" y="0" z="-183" damage="0.6" arcwidth="0.3" cycletime="6.0" range="1100"/>
-	<beam_port x="0" y="0" z="1" damage="0.6" arcwidth="1.0" cycletime="6.0" range="800"/>
+<beam_port x="40" y="0" z="178" damage="0.6" arcwidth="0.3" cycletime="4.5" range="1100"/>
+    <beam_port x="-40" y="0" z="178" damage="0.6" arcwidth="0.3" cycletime="4.5" range="1100"/>
+    <beam_port x="0" y="0" z="-183" damage="0.6" arcwidth="0.3" cycletime="4.5" range="1100"/>
+	<beam_port x="0" y="0" z="1" damage="1.6" arcwidth="1.0" cycletime="4.0" range="750"/>
     <impulse_point x="56.31" y="-16.16" z="-409.5"/>
     <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
     <maneuver_point x="182.37" y="-17.78" z="202.89"/>
     <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
     <long_desc text="Eclipse class Stealthed Dreadnought"/> 
   </vessel>
-	
 </vessel_data>
