@@ -3310,14 +3310,13 @@
   </vessel>
 	
 	
-	<vessel uniqueID="7700" side="21" classname="BC" broadType="Large">
+		<vessel uniqueID="7700" side="21" classname="Wretched" broadType="Large">
     <art meshfile="dat/TSN/Neutrals/F3.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
     <shields front="70" back="70"/>
-    <performance turnrate="0.003" topspeed="0.5"/>
+    <performance turnrate="0.0025" topspeed="0.44"/>
     <fleet_ai commonality="10"/>
-    <drone_port x=" 84" y="-4" z="286" damage="10" cycletime="30.0" range="3000"/>
-    <beam_port x="-50" y="-16.16" z="-0" damage="0.45" arcwidth="0.3" cycletime="6.0" range="1500"/>
-    <beam_port x="50" y="-16.16" z="-0" damage="0.45" arcwidth="0.3" cycletime="6.0" range="1500"/>
+    <beam_port x="0" y="0" z="50" damage="0.75" arcwidth="0.25" cycletime="3.5" range="1000"/>
+    <beam_port x="-0" y="0" z="-50" damage="0.4" arcwidth="0.25" cycletime="3.5" range="1000"/>
     <engine_port x="136" y="-73" z="-465"/>
     <engine_port x= "-136" y="-73" z="-465"/>
     <engine_port x="91" y="-73" z="-465"/>
@@ -3330,16 +3329,39 @@
     <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
     <maneuver_point x="182.37" y="-17.78" z="202.89"/>
     <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
-    <long_desc text="Battle Cruiser"/> 
+    <long_desc text="Wretched Class Battlecruiser. 1 X High Power Pulse Laser Fore, 1 X Medium Power Pulse Laser Aft"/> 
   </vessel>
-		<vessel uniqueID="7701" side="21" classname="DD" broadType="small">
+	
+		<vessel uniqueID="7701" side="21" classname="Wretched" broadType="Large">
+    <art meshfile="dat/TSN/Neutrals/F3.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
+    <shields front="70" back="70"/>
+    <performance turnrate="0.002" topspeed="0.4"/>
+    <fleet_ai commonality="10"/>
+    <beam_port x="0" y="0" z="50" damage="0.75" arcwidth="0.25" cycletime="3.0" range="1600"/>
+ <drone_port x="84" y="-4" z="286" damage="10" cycletime="30.0" range="4000"/>
+    <engine_port x="136" y="-73" z="-465"/>
+    <engine_port x= "-136" y="-73" z="-465"/>
+    <engine_port x="91" y="-73" z="-465"/>
+    <engine_port x= "-91" y="-73" z="-465"/>
+   <engine_port x="136" y="73" z="-465"/>
+    <engine_port x= "-136" y="73" z="-465"/>
+    <engine_port x="91" y="73" z="-465"/>
+    <engine_port x= "-91" y="73" z="-465"/>
+    <impulse_point x="56.31" y="-16.16" z="-409.5"/>
+    <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
+    <maneuver_point x="182.37" y="-17.78" z="202.89"/>
+    <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
+    <long_desc text="Vehement Class Stand off Battleship. 1 X High Power gas cooled pulse Laser, 1 X Drone Launcher"/> 
+  </vessel>
+	
+		<vessel uniqueID="7702" side="21" classname="Haughty" broadType="small">
     <art meshfile="dat/TSN/Neutrals/G3.dxs" diffuseFile="dat/TSN/Neutrals/G3_Dif.png" glowFile="dat/TSN/Neutrals/G3_Glow.png" specularFile="dat/TSN/Neutrals/G3_Spec.png" scale="0.25" pushRadius="250"/>
-    <shields front="40" back="40"/>
-    <performance turnrate="0.003" topspeed="0.5"/>
+    <shields front="50" back="40"/>
+    <performance turnrate="0.0045" topspeed="0.5"/>
     <fleet_ai commonality="90"/>
-    <drone_port x=" 84" y="-4" z="286" damage="10" cycletime="30.0" range="3000"/>
-    <beam_port x="0" y="-16.16" z="10" damage="0.3" arcwidth="0.3" cycletime="6.0" range="1500"/>
-			<beam_port x="0" y="-16.16" z="-10" damage="0.3" arcwidth="0.3" cycletime="6.0" range="1000"/>
+
+    <beam_port x="0" y="-0" z="1" damage="0.5" arcwidth="0.25" cycletime="4.5" range="1100"/>
+	    <beam_port x="0" y="-0" z="300" damage="0.5" arcwidth="0.1" cycletime="4.5" range="1200"/>		
 <engine_port x= "-149" y="161" z="-508"/>
 <engine_port x= "149" y="161" z="-508"/>
 <engine_port x= "-149" y="-161" z="-508"/>
@@ -3348,10 +3370,27 @@
     <impulse_point x="-149" y="-100" z="-500"/>
     <maneuver_point x="182.37" y="-17.78" z="202.89"/>
     <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
-    <long_desc text="Destroyer"/> 
+    <long_desc text="Haughty Class Frigate. 2 X Gas cooled Beams"/> 
+  </vessel>
+
+			<vessel uniqueID="7703" side="21" classname="Aloof" broadType="small">
+    <art meshfile="dat/TSN/Neutrals/G3.dxs" diffuseFile="dat/TSN/Neutrals/G3_Dif.png" glowFile="dat/TSN/Neutrals/G3_Glow.png" specularFile="dat/TSN/Neutrals/G3_Spec.png" scale="0.25" pushRadius="250"/>
+    <shields front="63" back="63"/>
+    <performance turnrate="0.004" topspeed="0.5"/>
+    <fleet_ai commonality="90"/>
+    <beam_port x="0" y="-0" z="1" damage="0.6" arcwidth="0.25" cycletime="4.0" range="1100"/>
+<engine_port x= "-149" y="161" z="-508"/>
+<engine_port x= "149" y="161" z="-508"/>
+<engine_port x= "-149" y="-161" z="-508"/>
+<engine_port x= "149" y="-161" z="-508"/>
+    <impulse_point x="149" y="-140" z="-500"/>
+    <impulse_point x="-149" y="-100" z="-500"/>
+    <maneuver_point x="182.37" y="-17.78" z="202.89"/>
+    <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
+    <long_desc text="Aloof Class Destroyer. 1 X Overcharged, Gas cooled Beam"/> 
   </vessel>
 	
-			<vessel uniqueID="7702" side="21" classname="Cargo" broadType="small">
+			<vessel uniqueID="7710" side="21" classname="Cargo" broadType="small">
     <art meshfile="dat/TSN/Neutrals/F4.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
     <shields front="40" back="30"/>
     <performance turnrate="0.003" topspeed="0.5"/>
@@ -3376,7 +3415,7 @@
     <long_desc text="Mixed Passanger and cargo Ship"/> 
   </vessel>
 	
-				<vessel uniqueID="7703" side="21" classname="Cargo" broadType="carrier">
+				<vessel uniqueID="7711" side="21" classname="Cargo" broadType="carrier">
     <art meshfile="dat/TSN/Neutrals/F4.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
     <shields front="40" back="30"/>
 	<carrierload baycount="4" bomber="2"/>				
@@ -3402,7 +3441,7 @@
     <long_desc text="Mixed Passanger and cargo Ship with outsized cargo hatches and 10% higher energy readings"/> 
   </vessel>
 	
-	  <vessel    uniqueID="7704"    side="21"       classname="Fighter" broadType="singleseat">
+	  <vessel    uniqueID="7712"    side="21"       classname="Fighter" broadType="singleseat">
     <art     meshfile="dat/ENE_Matt3A.dxs"    diffuseFile="dat/ship4A_diffuse.png"
              glowFile="dat/ship4A_glow.png"    specularFile="dat/ship4A_specular.png" scale="0.05" pushRadius="80"/>
    <!-- Weapons and Shields modified (1/4)-->
@@ -3421,7 +3460,7 @@
     <long_desc text="Displacement: 0.015 kt. Armament: 2 light beams."/>
   </vessel>
 	
-		  <vessel    uniqueID="7705"    side="21"       classname="Bomber" broadType="singleseat">
+		  <vessel    uniqueID="7713"    side="21"       classname="Bomber" broadType="singleseat">
     <art     meshfile="dat/ENE_Matt3A.dxs"    diffuseFile="dat/ship4A_diffuse.png"
              glowFile="dat/ship4A_glow.png"    specularFile="dat/ship4A_specular.png" scale="0.05" pushRadius="80"/>
    <!-- Weapons and Shields modified (1/4)-->
@@ -3440,7 +3479,7 @@
     <long_desc text="Displacement: 0.015 kt. Armament: 1 light beams. 4 Wingmounted Drones"/>
   </vessel>
 	
-				<vessel uniqueID="7706" side="21" classname="Platform" broadType="small">
+				<vessel uniqueID="7714" side="21" classname="Platform" broadType="small">
     <art meshfile="dat/TSN/Neutrals/F2S.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
     <shields front="40" back="30"/>
     <performance turnrate="0.0003" topspeed="0.0"/>
