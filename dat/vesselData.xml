@@ -841,11 +841,11 @@
     <beam_port x="-70.60" y="7.42" z="-19.08" damage="10.5" playerdamage="73.5" arcwidth="0.1" cycletime="210.0" range="600"/>
     <torpedo_tube x="0" y="122" z="-176"/>
     <torpedo_tube x="0" y="122" z="-176"/>
-    <torpedo_storage type="trp" amount="15"/>  <!-- Homing"-->
+    <torpedo_storage type="trp" amount="10"/>  <!-- Homing"-->
     <torpedo_storage type="nuk" amount="3"/>  <!-- LR Nuke-->
-    <torpedo_storage type="min" amount="5"/>  <!-- Mine"-->
-    <torpedo_storage type="emp" amount="8"/>  <!-- EMP"-->
-    <torpedo_storage type="shk" amount="15"/>  <!-- Plasma Shock"-->
+    <torpedo_storage type="min" amount="3"/>  <!-- Mine"-->
+    <torpedo_storage type="emp" amount="6"/>  <!-- EMP"-->
+    <torpedo_storage type="shk" amount="10"/>  <!-- Plasma Shock"-->
     <torpedo_storage type="bea" amount="2"/>  <!-- Beacon"-->
     <torpedo_storage type="pro" amount="4"/>  <!-- Probe"-->
     <torpedo_storage type="tag" amount="1"/>  <!-- Tag"-->
@@ -881,11 +881,11 @@
     <torpedo_tube x="0" y="8.35" z="258.74"/>
     <torpedo_tube x="0" y="8.35" z="258.74"/>
     <torpedo_tube x="0" y="8.35" z="258.74"/>
-    <torpedo_storage type="trp" amount="30"/>  <!-- Homing"-->
-    <torpedo_storage type="nuk" amount="8"/>  <!-- LR Nuke-->
-    <torpedo_storage type="min" amount="6"/>  <!-- Mine"-->
-    <torpedo_storage type="emp" amount="12"/>  <!-- EMP"-->
-    <torpedo_storage type="shk" amount="20"/>  <!-- Plasma Shock"-->
+    <torpedo_storage type="trp" amount="20"/>  <!-- Homing"-->
+    <torpedo_storage type="nuk" amount="6"/>  <!-- LR Nuke-->
+    <torpedo_storage type="min" amount="4"/>  <!-- Mine"-->
+    <torpedo_storage type="emp" amount="10"/>  <!-- EMP"-->
+    <torpedo_storage type="shk" amount="15"/>  <!-- Plasma Shock"-->
     <torpedo_storage type="bea" amount="2"/>  <!-- Beacon"-->
     <torpedo_storage type="pro" amount="2"/>  <!-- Probe"-->
     <torpedo_storage type="tag" amount="2"/>  <!-- Tag"-->
