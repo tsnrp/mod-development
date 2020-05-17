@@ -3332,7 +3332,7 @@
     <long_desc text="Wretched Class Battlecruiser. 1 X High Power Pulse Laser Fore, 1 X Medium Power Pulse Laser Aft"/> 
   </vessel>
 	
-		<vessel uniqueID="7701" side="21" classname="Wretched" broadType="Large">
+		<vessel uniqueID="7701" side="21" classname="Vehement" broadType="Large">
     <art meshfile="dat/TSN/Neutrals/F3.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
     <shields front="70" back="70"/>
     <performance turnrate="0.002" topspeed="0.4"/>
@@ -3370,7 +3370,7 @@
     <impulse_point x="-149" y="-100" z="-500"/>
     <maneuver_point x="182.37" y="-17.78" z="202.89"/>
     <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
-    <long_desc text="Haughty Class Frigate. 2 X Gas cooled Beams"/> 
+    <long_desc text="Haughty Class Frigate. 2 X Pulse Lasers"/> 
   </vessel>
 
 			<vessel uniqueID="7703" side="21" classname="Aloof" broadType="small">
@@ -3467,7 +3467,7 @@
 	<shields front="1" back="1"/>
     <performance turnrate="0.01" topspeed="1.2"/>
     <fleet_ai commonality="75"/>
-	<drone_port x=" 84" y="-4" z="286" damage="10" cycletime="15.0" range="2500"/>
+	<drone_port x=" 84" y="-4" z="286" damage="10" cycletime="15.0" range="1700"/>
     <beam_port x="0" y="-1" z="217" damage="0.25" arcwidth="0.3" cycletime="5.0" range="800"/>
     <engine_port x="0" y="0" z="-230"/>
     <engine_port x="92" y="-7" z="-240"/>
@@ -3482,7 +3482,7 @@
 				<vessel uniqueID="7714" side="21" classname="Platform" broadType="small">
     <art meshfile="dat/TSN/Neutrals/F2S.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
     <shields front="40" back="30"/>
-    <performance turnrate="0.0003" topspeed="0.0"/>
+    <performance turnrate="0.00001" topspeed="0.0"/>
     <fleet_ai commonality="90"/>
     <drone_port x=" 84" y="-4" z="286" damage="10" cycletime="30.0" range="4000"/>
     <beam_port x="10" y="16.16" z="-0" damage="4.25" arcwidth="1.0" cycletime="6.0" range="4000"/>
