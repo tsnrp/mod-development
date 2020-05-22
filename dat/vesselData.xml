@@ -2202,6 +2202,28 @@
     <maneuver_point x="-50" y="31" z="0"/>
     <long_desc text="Displacement: 200 kt. Armement: 10 standard beams, 1 drone launcher"/>
   </vessel>
+	
+	  <vessel uniqueID="4101" side="17" classname="MineSweeper" broadType="Sweeper">
+    <art meshfile="dat/TSN/Hegemony/TorgothSweeper.dxs" diffuseFile="dat/ship1A_diffuse.png" glowFile="dat/ship1A_illum.png" specularFile="dat/ship1A_specular.png" scale="0.4" pushRadius="250"/>
+    <!-- Weapons and Shields modified (1/4)-->
+	<shields front="1500" back="300"/>
+    <performance turnrate="0.002" topspeed="0.3"/>
+    <fleet_ai commonality="0"/>
+    <beam_port x="0" y="30" z="8" damage="0.04" arcwidth="1.0" cycletime="1.0" range="1800"/>
+    <beam_port x="0" y="-30" z="8" damage="0.25" arcwidth="0.3" cycletime="3.0" range="1000"/>
+    <drone_port x="0" y="-10" z="-399" damage="7.5" cycletime="30.0" range="1000"/>
+    <engine_port x="-108" y="55" z="-340"/>
+    <engine_port x="-108" y="55" z="-349"/>
+   <engine_port x="108" y="55" z="-340"/>
+    <engine_port x="108" y="55" z="-349"/>
+    <engine_port x="0" y="-68" z="-375"/>
+    <engine_port x="0" y="-68" z="-384"/>
+    <impulse_point  x="-108" y="55" z="-140"/>
+    <impulse_point  x="-108" y="55" z="-140"/>
+    <maneuver_point x=" 50" y="31" z="0"/>
+    <maneuver_point x="-50" y="31" z="0"/>
+    <long_desc text="Hegmony Designed from an outdated Torgoth hull. Has a weak point defence anti material beam and single main heavy beam. Or as a last resort can bulldoze forward with its command ship level forward shield and ablative armour."/>
+  </vessel>
 
   <!-- ****************************** Skaraan VESSELS 5000 - 5100**************************************** -->
   <vessel    uniqueID="5000"    side="5"       classname="Defiler" broadType="small">
