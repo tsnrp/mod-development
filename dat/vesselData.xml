@@ -3214,7 +3214,10 @@
     <engine_port x="0" y="7.4" z="-21.2"/>
     <long_desc text="Ximni Long Range Shuttle^Armed only with a small laser, this shuttle is known as the Party Ride."/>
   </vessel>
-<vessel uniqueID="7600" side="20" classname="Unknown Vessel" broadType="small">
+	
+	<!--Kzinti Ships-->
+	
+<vessel uniqueID="7600" side="20" classname="Warbird" broadType="small">
     <art meshfile="dat/TSN/Neutrals/TriRev.dxs" diffuseFile="dat/TSN/Neutrals/tri_dif.png" glowFile="dat/TSN/Neutrals/tri_glow.png" specularFile="dat/TSN/Neutrals/tri_Spec.png" scale="0.25" pushRadius="175"/>
     <!-- Weapons and Shields modified (1/4)-->
 	<shields front="40" back="30"/>
@@ -3269,7 +3272,7 @@
     <long_desc text="Unknown vessel. Shields match Skarran export models. Reaction drive system is highly energetic, avoid zones in red. Vessel primary armamant appears to be short range, low damage drone launchers."/> 
   </vessel>    
   
-  <vessel uniqueID="7601" side="20" classname="Unknown Transport" broadType="small">
+  <vessel uniqueID="7601" side="20" classname="Transport" broadType="small">
     <art meshfile="dat/TSN/Neutrals/TriRev.dxs" diffuseFile="dat/TSN/Neutrals/tri_dif.png" glowFile="dat/TSN/Neutrals/tri_glow.png" specularFile="dat/TSN/Neutrals/tri_Spec.png" scale="0.25" pushRadius="175"/>
     <!-- Weapons and Shields modified (1/4)-->
 	<shields front="45" back="45"/>
@@ -3331,14 +3334,84 @@
     <long_desc text="Unknown Transport. Shields match Skarran export models. Reaction drive system is highly energetic, avoid zones in red. Vessel primary armamant appears to be short range, low damage drone launchers."/> 
   </vessel>
 	
-	
-		<vessel uniqueID="7700" side="21" classname="Wretched" broadType="Large">
+	<!-- Ingratus Ships-->
+			<vessel uniqueID="7700" side="21" classname="Haughty" broadType="small">
+    <art meshfile="dat/TSN/Neutrals/P3.dxs" diffuseFile="dat/TSN/Neutrals/P3_Dif.png" glowFile="dat/TSN/Neutrals/P3_Glow.png" specularFile="dat/TSN/Neutrals/P3_Spec.png" scale="0.25" pushRadius="250"/>
+    <shields front="50" back="40"/>
+    <performance turnrate="0.0045" topspeed="0.5"/>
+    <fleet_ai commonality="90"/>
+    <beam_port x="0" y="-0" z="1" damage="0.5" arcwidth="0.25" cycletime="4.5" range="1100"/>
+	    <beam_port x="0" y="-0" z="300" damage="0.5" arcwidth="0.1" cycletime="4.5" range="1200"/>		
+<engine_port x= "-149" y="161" z="-508"/>
+<engine_port x= "149" y="161" z="-508"/>
+<engine_port x= "-149" y="-161" z="-508"/>
+<engine_port x= "149" y="-161" z="-508"/>
+    <impulse_point x="149" y="-140" z="-500"/>
+    <impulse_point x="-149" y="-100" z="-500"/>
+    <maneuver_point x="182.37" y="-17.78" z="202.89"/>
+    <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
+    <long_desc text="Haughty Class Frigate. 2 X Pulse Lasers"/> 
+  </vessel>
+
+			<vessel uniqueID="7701" side="21" classname="Aloof" broadType="small">
+    <art meshfile="dat/TSN/Neutrals/P3.dxs" diffuseFile="dat/TSN/Neutrals/P3_Dif.png" glowFile="dat/TSN/Neutrals/P3_Glow.png" specularFile="dat/TSN/Neutrals/P3_Spec.png" scale="0.25" pushRadius="250"/>
+    <shields front="63" back="63"/>
+    <performance turnrate="0.0040" topspeed="0.5"/>
+    <fleet_ai commonality="90"/>
+    <beam_port x="0" y="-0" z="1" damage="0.6" arcwidth="0.25" cycletime="4.0" range="1100"/>
+<engine_port x= "-149" y="161" z="-508"/>
+<engine_port x= "149" y="161" z="-508"/>
+<engine_port x= "-149" y="-161" z="-508"/>
+<engine_port x= "149" y="-161" z="-508"/>
+    <impulse_point x="149" y="-140" z="-500"/>
+    <impulse_point x="-149" y="-100" z="-500"/>
+    <maneuver_point x="182.37" y="-17.78" z="202.89"/>
+    <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
+    <long_desc text="Aloof Class Destroyer. 1 X Overcharged, Gas cooled Beam"/> 
+  </vessel>
+			<vessel uniqueID="7702" side="21" classname="Disdainful" broadType="small">
+    <art meshfile="dat/TSN/Neutrals/G3.dxs" diffuseFile="dat/TSN/Neutrals/G3_Dif.png" glowFile="dat/TSN/Neutrals/G3_Glow.png" specularFile="dat/TSN/Neutrals/G3_Spec.png" scale="0.25" pushRadius="250"/>
+    <shields front="50" back="40"/>
+    <performance turnrate="0.0035" topspeed="0.44"/>
+    <fleet_ai commonality="90"/>
+    <beam_port x="100" y="-0" z="1" damage="0.7" arcwidth="0.25" cycletime="4.0" range="1000"/>
+	    <beam_port x="-100" y="-0" z="300" damage="0.7" arcwidth="0.25" cycletime="4.0" range="1000"/>		
+<engine_port x= "-149" y="161" z="-508"/>
+<engine_port x= "149" y="161" z="-508"/>
+<engine_port x= "-149" y="-161" z="-508"/>
+<engine_port x= "149" y="-161" z="-508"/>
+    <impulse_point x="149" y="-140" z="-500"/>
+    <impulse_point x="-149" y="-100" z="-500"/>
+    <maneuver_point x="182.37" y="-17.78" z="202.89"/>
+    <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
+    <long_desc text="Disdainful Class Cruiser. 2 X upgraded Pulse Lasers"/> 
+  </vessel>
+
+			<vessel uniqueID="7703" side="21" classname="Annoyed" broadType="small">
+    <art meshfile="dat/TSN/Neutrals/G3.dxs" diffuseFile="dat/TSN/Neutrals/G3_Dif.png" glowFile="dat/TSN/Neutrals/G3_Glow.png" specularFile="dat/TSN/Neutrals/G3_Spec.png" scale="0.25" pushRadius="250"/>
+    <shields front="80" back="80"/>
+    <performance turnrate="0.0034" topspeed="0.44"/>
+    <fleet_ai commonality="90"/>
+    <beam_port x="100" y="-0" z="1" damage="0.6" arcwidth="0.25" cycletime="3.5" range="1100"/>
+<beam_port x="-100" y="-0" z="1" damage="0.6" arcwidth="0.25" cycletime="3.5" range="1100"/>
+<beam_port x="0" y="0" z="-200" damage="0.6" arcwidth="0.5" cycletime="3.5" range="1100"/>
+<engine_port x= "-149" y="161" z="-508"/>
+<engine_port x= "149" y="161" z="-508"/>
+<engine_port x= "-149" y="-161" z="-508"/>
+<engine_port x= "149" y="-161" z="-508"/>
+    <impulse_point x="149" y="-140" z="-500"/>
+    <impulse_point x="-149" y="-100" z="-500"/>
+    <maneuver_point x="182.37" y="-17.78" z="202.89"/>
+    <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
+    <long_desc text="Annoyed Class Cruiser. 3 X Pulse Lasers"/> 
+  </vessel>
+		<vessel uniqueID="7704" side="21" classname="Wretched" broadType="Large">
     <art meshfile="dat/TSN/Neutrals/F3.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
-    <shields front="70" back="70"/>
+    <shields front="82" back="82"/>
     <performance turnrate="0.0025" topspeed="0.44"/>
     <fleet_ai commonality="10"/>
     <beam_port x="0" y="0" z="50" damage="0.75" arcwidth="0.25" cycletime="3.5" range="1000"/>
-    <beam_port x="-0" y="0" z="-50" damage="0.4" arcwidth="0.25" cycletime="3.5" range="1000"/>
+    <beam_port x="-0" y="0" z="-50" damage="0.75" arcwidth="0.25" cycletime="3.5" range="1000"/>
     <engine_port x="136" y="-73" z="-465"/>
     <engine_port x= "-136" y="-73" z="-465"/>
     <engine_port x="91" y="-73" z="-465"/>
@@ -3354,12 +3427,12 @@
     <long_desc text="Wretched Class Battlecruiser. 1 X High Power Pulse Laser Fore, 1 X Medium Power Pulse Laser Aft"/> 
   </vessel>
 	
-		<vessel uniqueID="7701" side="21" classname="Vehement" broadType="Large">
+		<vessel uniqueID="7705" side="21" classname="Vehement" broadType="Large">
     <art meshfile="dat/TSN/Neutrals/F3.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
     <shields front="70" back="70"/>
     <performance turnrate="0.002" topspeed="0.4"/>
     <fleet_ai commonality="10"/>
-    <beam_port x="0" y="0" z="50" damage="0.75" arcwidth="0.25" cycletime="3.0" range="1600"/>
+    <beam_port x="0" y="0" z="50" damage="0.75" arcwidth="0.25" cycletime="3.0" range="1700"/>
  <drone_port x="84" y="-4" z="286" damage="10" cycletime="30.0" range="4000"/>
     <engine_port x="136" y="-73" z="-465"/>
     <engine_port x= "-136" y="-73" z="-465"/>
@@ -3376,41 +3449,7 @@
     <long_desc text="Vehement Class Stand off Battleship. 1 X High Power gas cooled pulse Laser, 1 X Drone Launcher"/> 
   </vessel>
 	
-		<vessel uniqueID="7702" side="21" classname="Haughty" broadType="small">
-    <art meshfile="dat/TSN/Neutrals/G3.dxs" diffuseFile="dat/TSN/Neutrals/G3_Dif.png" glowFile="dat/TSN/Neutrals/G3_Glow.png" specularFile="dat/TSN/Neutrals/G3_Spec.png" scale="0.25" pushRadius="250"/>
-    <shields front="50" back="40"/>
-    <performance turnrate="0.0045" topspeed="0.5"/>
-    <fleet_ai commonality="90"/>
 
-    <beam_port x="0" y="-0" z="1" damage="0.5" arcwidth="0.25" cycletime="4.5" range="1100"/>
-	    <beam_port x="0" y="-0" z="300" damage="0.5" arcwidth="0.1" cycletime="4.5" range="1200"/>		
-<engine_port x= "-149" y="161" z="-508"/>
-<engine_port x= "149" y="161" z="-508"/>
-<engine_port x= "-149" y="-161" z="-508"/>
-<engine_port x= "149" y="-161" z="-508"/>
-    <impulse_point x="149" y="-140" z="-500"/>
-    <impulse_point x="-149" y="-100" z="-500"/>
-    <maneuver_point x="182.37" y="-17.78" z="202.89"/>
-    <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
-    <long_desc text="Haughty Class Frigate. 2 X Pulse Lasers"/> 
-  </vessel>
-
-			<vessel uniqueID="7703" side="21" classname="Aloof" broadType="small">
-    <art meshfile="dat/TSN/Neutrals/G3.dxs" diffuseFile="dat/TSN/Neutrals/G3_Dif.png" glowFile="dat/TSN/Neutrals/G3_Glow.png" specularFile="dat/TSN/Neutrals/G3_Spec.png" scale="0.25" pushRadius="250"/>
-    <shields front="63" back="63"/>
-    <performance turnrate="0.004" topspeed="0.5"/>
-    <fleet_ai commonality="90"/>
-    <beam_port x="0" y="-0" z="1" damage="0.6" arcwidth="0.25" cycletime="4.0" range="1100"/>
-<engine_port x= "-149" y="161" z="-508"/>
-<engine_port x= "149" y="161" z="-508"/>
-<engine_port x= "-149" y="-161" z="-508"/>
-<engine_port x= "149" y="-161" z="-508"/>
-    <impulse_point x="149" y="-140" z="-500"/>
-    <impulse_point x="-149" y="-100" z="-500"/>
-    <maneuver_point x="182.37" y="-17.78" z="202.89"/>
-    <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
-    <long_desc text="Aloof Class Destroyer. 1 X Overcharged, Gas cooled Beam"/> 
-  </vessel>
 	
 			<vessel uniqueID="7710" side="21" classname="Cargo" broadType="small">
     <art meshfile="dat/TSN/Neutrals/F4.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
@@ -3501,12 +3540,13 @@
     <long_desc text="Displacement: 0.015 kt. Armament: 1 light beams. 4 Wingmounted Drones"/>
   </vessel>
 	
-				<vessel uniqueID="7714" side="21" classname="Platform" broadType="small">
+				<vessel uniqueID="7714" side="21" classname="Platform" broadType="carrier">
     <art meshfile="dat/TSN/Neutrals/F2S.dxs" diffuseFile="dat/TSN/Neutrals/F3_Dif.png" glowFile="dat/TSN/Neutrals/F3_Glow.png" specularFile="dat/TSN/Neutrals/F3_Spec.png" scale="0.25" pushRadius="250"/>
     <shields front="40" back="30"/>
     <performance turnrate="0.00001" topspeed="0.0"/>
+					<carrierload baycount="6" bomber="2"/>	
     <fleet_ai commonality="90"/>
-    <drone_port x=" 84" y="-4" z="286" damage="10" cycletime="30.0" range="4000"/>
+    <drone_port x=" 84" y="-4" z="286" damage="10" cycletime="20.0" range="4000"/>
     <beam_port x="10" y="16.16" z="-0" damage="4.25" arcwidth="1.0" cycletime="6.0" range="4000"/>
     <beam_port x="0" y="-16.16" z="-0" damage="4.25" arcwidth="1.0" cycletime="6.0" range="1500"/>
     <engine_port x= "-149" y="161" z="-508"/>
@@ -3517,8 +3557,11 @@
     <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
     <maneuver_point x="182.37" y="-17.78" z="202.89"/>
     <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
-    <long_desc text="Static Multi Role Platform"/>
+    <long_desc text="Static Multi Role Platform Varied Armament"/>
   </vessel>
+	
+	<!--Stealth Race Ships-->
+	
 				<vessel uniqueID="7750" side="22" classname="Dusk" broadType="small">
     <art meshfile="dat/TSN/Neutrals/Stealth_Frigate.dxs" diffuseFile="dat/GenericMesh/shipHull14.png" glowFile="dat/GenericMesh/shipHull14.png" specularFile="dat/GenericMesh/shipHull14.png" scale="0.20" pushRadius="250"/>
     <shields front="25" back="35"/>
