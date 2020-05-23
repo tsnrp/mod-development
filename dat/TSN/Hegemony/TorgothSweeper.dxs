@@ -261,7 +261,7 @@
       </material>
     </category>
   </materials>
-  <primitives highestID="2">
+  <primitives highestID="1">
     <primitive id="1" name="user defined1" type="userdefined" visible="true" snap="none" autoUV="false" groupID="-1" skeletonID="-1">
       <vertices>
         <vertex id="0" x="25.18343" y="84.92585" z="31.22126" jointID="-1" />
@@ -18552,58 +18552,8 @@
         </poly>
       </polygons>
     </primitive>
-    <primitive id="2" name="cube2" type="cube" visible="true" snap="vertex" autoUV="true" groupID="-1" skeletonID="-1">
-      <vertices>
-        <vertex id="0" x="96.768" y="-96.768" z="96.768" jointID="-1" />
-        <vertex id="1" x="-96.768" y="-96.768" z="96.768" jointID="-1" />
-        <vertex id="2" x="-96.768" y="-96.768" z="-96.768" jointID="-1" />
-        <vertex id="3" x="96.768" y="-96.768" z="-96.768" jointID="-1" />
-        <vertex id="4" x="96.768" y="96.768" z="96.768" jointID="-1" />
-        <vertex id="5" x="-96.768" y="96.768" z="96.768" jointID="-1" />
-        <vertex id="6" x="-96.768" y="96.768" z="-96.768" jointID="-1" />
-        <vertex id="7" x="96.768" y="96.768" z="-96.768" jointID="-1" />
-      </vertices>
-      <polygons>
-        <poly mid="0">
-          <vertex vid="0" u0="0.756" v0="0.756" />
-          <vertex vid="1" u0="-0.756" v0="0.756" />
-          <vertex vid="5" u0="-0.756" v0="-0.756" />
-          <vertex vid="4" u0="0.756" v0="-0.756" />
-        </poly>
-        <poly mid="0">
-          <vertex vid="1" u0="0.756" v0="0.756" />
-          <vertex vid="2" u0="-0.756" v0="0.756" />
-          <vertex vid="6" u0="-0.756" v0="-0.756" />
-          <vertex vid="5" u0="0.756" v0="-0.756" />
-        </poly>
-        <poly mid="0">
-          <vertex vid="2" u0="0.756" v0="0.756" />
-          <vertex vid="3" u0="-0.756" v0="0.756" />
-          <vertex vid="7" u0="-0.756" v0="-0.756" />
-          <vertex vid="6" u0="0.756" v0="-0.756" />
-        </poly>
-        <poly mid="0">
-          <vertex vid="3" u0="0.756" v0="0.756" />
-          <vertex vid="0" u0="-0.756" v0="0.756" />
-          <vertex vid="4" u0="-0.756" v0="-0.756" />
-          <vertex vid="7" u0="0.756" v0="-0.756" />
-        </poly>
-        <poly mid="0">
-          <vertex vid="1" u0="-0.756" v0="-0.756" />
-          <vertex vid="0" u0="0.756" v0="-0.756" />
-          <vertex vid="3" u0="0.756" v0="0.756" />
-          <vertex vid="2" u0="-0.756" v0="0.756" />
-        </poly>
-        <poly mid="0">
-          <vertex vid="6" u0="-0.756" v0="-0.756" />
-          <vertex vid="7" u0="0.756" v0="-0.756" />
-          <vertex vid="4" u0="0.756" v0="0.756" />
-          <vertex vid="5" u0="-0.756" v0="0.756" />
-        </poly>
-      </polygons>
-    </primitive>
   </primitives>
   <skeletons />
-  <lights highestID="2" />
-  <paths highestID="2" />
+  <lights highestID="1" />
+  <paths highestID="1" />
 </scene>
