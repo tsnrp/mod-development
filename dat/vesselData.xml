@@ -3374,8 +3374,8 @@
     <shields front="50" back="40"/>
     <performance turnrate="0.0035" topspeed="0.44"/>
     <fleet_ai commonality="90"/>
-    <beam_port x="100" y="-0" z="1" damage="0.7" arcwidth="0.25" cycletime="4.0" range="1000"/>
-	    <beam_port x="-100" y="-0" z="300" damage="0.7" arcwidth="0.25" cycletime="4.0" range="1000"/>		
+    <beam_port x="50" y="-0" z="1" damage="0.7" arcwidth="0.25" cycletime="4.0" range="1200"/>
+	    <beam_port x="-50" y="-0" z="100" damage="0.7" arcwidth="0.25" cycletime="4.0" range="1200"/>		
 <engine_port x= "-149" y="161" z="-508"/>
 <engine_port x= "149" y="161" z="-508"/>
 <engine_port x= "-149" y="-161" z="-508"/>
@@ -3392,12 +3392,12 @@
     <shields front="80" back="80"/>
     <performance turnrate="0.0034" topspeed="0.44"/>
     <fleet_ai commonality="90"/>
-    <beam_port x="100" y="-0" z="1" damage="0.6" arcwidth="0.25" cycletime="3.5" range="1100"/>
-<beam_port x="-100" y="-0" z="1" damage="0.6" arcwidth="0.25" cycletime="3.5" range="1100"/>
-<beam_port x="0" y="0" z="-200" damage="0.6" arcwidth="0.5" cycletime="3.5" range="1100"/>
-<engine_port x= "-149" y="161" z="-508"/>
-<engine_port x= "149" y="161" z="-508"/>
-<engine_port x= "-149" y="-161" z="-508"/>
+    <beam_port x="100" y="-0" z="1" damage="0.6" arcwidth="0.25" cycletime="3.5" range="1000"/>
+<beam_port x="-100" y="-0" z="1" damage="0.6" arcwidth="0.25" cycletime="3.5" range="1000"/>
+<beam_port x="0" y="0" z="-200" damage="0.6" arcwidth="0.5" cycletime="3.5" range="1000"/>
+<engine_port x= "-49" y="161" z="-508"/>
+<engine_port x= "49" y="161" z="-508"/>
+<engine_port x= "0" y="-161" z="-508"/>
 <engine_port x= "149" y="-161" z="-508"/>
     <impulse_point x="149" y="-140" z="-500"/>
     <impulse_point x="-149" y="-100" z="-500"/>
