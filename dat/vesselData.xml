@@ -3223,7 +3223,7 @@
 	<shields front="40" back="30"/>
     <performance turnrate="0.004" topspeed="0.75"/>
     <fleet_ai commonality="10"/>
-    <drone_port x=" 84" y="-4" z="286" damage="2" cycletime="2.0" range="2000"/>
+    <drone_port x=" 84" y="-4" z="286" damage="20" cycletime="2.0" range="2000"/>
     <beam_port x="0" y="2.5" z="-371.50" damage="5.5" arcwidth="0.175" cycletime="1.0" range="750"/>
     <beam_port x="0" y="2.5" z="-371.50" damage="4.25" arcwidth="0.03" cycletime="1.0" range="1500"/>
     <beam_port x="134.42" y="0" z="100.82" damage="5" arcwidth="0.03" cycletime="4.0" range="1000"/>
@@ -3557,9 +3557,9 @@
 	<!--Stealth Race Ships-->
 	
 				<vessel uniqueID="7750" side="22" classname="Dusk" broadType="small">
-    <art meshfile="dat/TSN/Neutrals/Stealth_Frigate.dxs" diffuseFile="dat/TSN/Neutrals/shipHull14.png" glowFile="dat/TSN/Neutrals/shipHull14.png" specularFile="dat/TSN/Neutrals/shipHull14.png" scale="0.20" pushRadius="250"/>
+    <art meshfile="dat/TSN/Neutrals/Stealth_Frigate.dxs" diffuseFile="dat/TSN/Neutrals/shipHull14.png" glowFile="dat/TSN/Neutrals/shipHull14.png" specularFile="dat/TSN/Neutrals/shipHull14.png" scale="0.4" pushRadius="250"/>
     <shields front="25" back="35"/>
-    <performance turnrate="0.0003" topspeed="0.4"/>
+    <performance turnrate="0.004" topspeed="0.4"/>
     <fleet_ai commonality="90"/>
 <beam_port x="20" y="0" z="178" damage="0.4" arcwidth="0.3" cycletime="6.0" range="1100"/>
     <beam_port x="-20" y="0" z="178" damage="0.4" arcwidth="0.3" cycletime="6.0" range="1100"/>
@@ -3571,9 +3571,9 @@
     <long_desc text="Dusk class Frigate"/> 
   </vessel>
 					<vessel uniqueID="7751" side="22" classname="Umbra" broadType="Medium">
-    <art meshfile="dat/TSN/Neutrals/Stealth_Cruiser.dxs" diffuseFile="dat/TSN/Neutrals/shipHull14.png" glowFile="dat/TSN/Neutrals/shipHull14.png" specularFile="dat/TSN/Neutrals/shipHull14.png" scale="0.25" pushRadius="250"/>
+    <art meshfile="dat/TSN/Neutrals/Stealth_Cruiser.dxs" diffuseFile="dat/TSN/Neutrals/shipHull14.png" glowFile="dat/TSN/Neutrals/shipHull14.png" specularFile="dat/TSN/Neutrals/shipHull14.png" scale="0.5" pushRadius="250"/>
     <shields front="50" back="75"/>
-    <performance turnrate="0.0003" topspeed="0.4"/>
+    <performance turnrate="0.003" topspeed="0.4"/>
     <fleet_ai commonality="90"/>
 <beam_port x="20" y="0" z="178" damage="0.6" arcwidth="0.3" cycletime="6.0" range="1100"/>
     <beam_port x="-20" y="0" z="178" damage="0.6" arcwidth="0.3" cycletime="6.0" range="1100"/>
@@ -3586,9 +3586,9 @@
     <long_desc text="Umbra class Cruiser"/> 
   </vessel>
     <vessel uniqueID="7752" side="22" classname="Eclipse" broadType="Medium">
-    <art meshfile="dat/TSN/Neutrals/Stealth_Dread.dxs" diffuseFile="dat/TSN/Neutrals/shipHull14.png" glowFile="dat/TSN/Neutrals/shipHull14.png" specularFile="dat/TSN/Neutrals/shipHull14.png" scale="0.3" pushRadius="250"/>
+    <art meshfile="dat/TSN/Neutrals/Stealth_Dread.dxs" diffuseFile="dat/TSN/Neutrals/shipHull14.png" glowFile="dat/TSN/Neutrals/shipHull14.png" specularFile="dat/TSN/Neutrals/shipHull14.png" scale="0.6" pushRadius="250"/>
     <shields front="75" back="100"/>
-    <performance turnrate="0.0003" topspeed="0.3"/>
+    <performance turnrate="0.002" topspeed="0.3"/>
     <fleet_ai commonality="90"/>
 <beam_port x="40" y="0" z="178" damage="0.6" arcwidth="0.3" cycletime="4.5" range="1100"/>
     <beam_port x="-40" y="0" z="178" damage="0.6" arcwidth="0.3" cycletime="4.5" range="1100"/>
