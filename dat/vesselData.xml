@@ -858,7 +858,7 @@
     <impulse_point x="111.755783" y="-44.202168" z="-242.740082"/> <!-- UE Dec2019 -->
     <maneuver_point x="-146" y="8.75" z="79.37"/> <!-- UE Dec2019 -->
     <maneuver_point x="146" y="8.75" z="79.37"/> <!-- UE Dec2019 -->
-    <long_desc text="Athena class System Defense Battleship^2 Light Beams, 1 Heavy beam, ^1 Inertial Artillery hardpoint, 2 fighter defense RAMs^ 1 Torpedo tube, Stores for 3 nuke, 15 homing, 5 mines, 8 EMP, 15 PShock.^Battle hardened systems and redundant shield nodes."/>
+    <long_desc text="Athena class System Defense Battleship^2 Light Beams, 1 Heavy beam, ^1 Inertial Artillery hardpoint, 2 fighter defense RAMs^ 2 Torpedo tube, Stores for 3 nuke, 10 homing, 3 mines, 6 EMP, 10 PShock.^Battle hardened systems and redundant shield nodes."/>
   </vessel>
   
       <vessel    uniqueID="24"    side="0"       classname="Zeus class" broadType="player carrier">
