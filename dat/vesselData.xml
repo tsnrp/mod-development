@@ -136,7 +136,7 @@
 	  <hullRace ID="21" name="Budon" keys="FactionBudron">
     <taunt immunity="has particularly good stealth organs" text="I can seee you!"/>
     <taunt immunity="Has a first in digestive chemistry" text="Was that deliberate or did you just fart and explode half your crew?"/>
-    <taunt immunity="Is mild-mannered" text="Hey, you need to take a chill pill/>
+    <taunt immunity="Is mild-mannered" text="Hey, you need to take a chill pill"/>
   </hullRace>
 	
 		  <hullRace ID="22" name="Sechatzal" keys="FactionSechatzal">
