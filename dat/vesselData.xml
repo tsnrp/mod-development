@@ -127,22 +127,22 @@
     <taunt immunity="is a human who has never even seen the Ximni homeworld" text="The only thing that smells worse than dragon breath is the Ximni home planet!"/>
   </hullRace>
 	
-	  <hullRace ID="20" name="Kzinti" keys="FactionKzinti">
-    <taunt immunity="is popular with their crew" text="Your two steps from a muntiney!"/>
-    <taunt immunity="is known as a good astronavigator" text="You could not find your way out of space dock!"/>
-    <taunt immunity="is openly hostile to the admrialty" text="your Admiral could not find his rear with a guide book!"/>
+	  <hullRace ID="20" name="Dinkuno" keys="FactionDinkuno">
+    <taunt immunity="Belongs to the Uphan religious group" text="Didn’t you have your large meal yesterday?"/>
+    <taunt immunity="Has binocular mutation" text="Your four eyes are your most disgusting feature"/>
+    <taunt immunity="Led infantry forces on surface engagements on various worlds" text="You’re so weak my grandmother could take you!"/>
   </hullRace>
 	
-	  <hullRace ID="21" name="Unknown A" keys="FactionUnknown">
-    <taunt immunity="has no Intel Avalible" text="The deadliest weapon on your ship is your ugly, face!"/>
-    <taunt immunity="has no Intel Avalible" text="Only a coward hides in a massive battlewagon like that!"/>
-    <taunt immunity="has no Intel Avalible" text="You call that a warship? I could crush that toy with my bare hands."/>
+	  <hullRace ID="21" name="Budon" keys="FactionBudron">
+    <taunt immunity="has particularly good stealth organs" text="I can seee you!"/>
+    <taunt immunity="Has a first in digestive chemistry" text="Was that deliberate or did you just fart and explode half your crew?"/>
+    <taunt immunity="Is mild-mannered" text="Hey, you need to take a chill pill/>
   </hullRace>
 	
-		  <hullRace ID="22" name="Unknown B" keys="FactionStealth">
-    <taunt immunity="has no Intel Avalible" text="The deadliest weapon on your ship is your ugly, face!"/>
-    <taunt immunity="has no Intel Avalible" text="Only a coward hides in a massive battlewagon like that!"/>
-    <taunt immunity="has no Intel Avalible" text="You call that a warship? I could crush that toy with my bare hands."/>
+		  <hullRace ID="22" name="Sechatzal" keys="FactionSechatzal">
+    <taunt immunity="has particularly good stealth organs" text="I can seee you!"/>
+    <taunt immunity="is ancient" text="Should you not still be in the spawning pools?"/>
+    <taunt immunity="is a recon expert" text="Look the point is to get the info.. Not display it!"/>
   </hullRace>
 
     <!-- ****************************** TSN capital ships 0 - 7**************************************** -->
