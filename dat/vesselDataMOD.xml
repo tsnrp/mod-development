@@ -3293,7 +3293,7 @@
     <impulse_point x="0" y="2.5" z="-371.50"/>
     <maneuver_point x="134.42" y="0" z="100.82"/>
     <maneuver_point x="-134.42" y="0" z="100.82"/>
-    <long_desc text="Unknown vessel. Shields match Skarran export models. Reaction drive system is highly energetic, avoid zones in red. Vessel primary armamant appears to be short range, low damage drone launchers."/> 
+    <long_desc text="Unknown vessel. Shields match Skaraan export models. Reaction drive system is highly energetic, avoid zones in red. Vessel primary armamant appears to be, low yeild drone launchers. Targeting system is antiquated and probably has a low lock on range."/> 
   </vessel>    
   
   <vessel uniqueID="7601" side="20" classname="Transport" broadType="small">
@@ -3355,7 +3355,7 @@
     <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
     <maneuver_point x="182.37" y="-17.78" z="202.89"/>
     <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
-    <long_desc text="Unknown Transport. Shields match Skarran export models. Reaction drive system is highly energetic, avoid zones in red. Vessel primary armamant appears to be short range, low damage drone launchers."/> 
+    <long_desc text="Unknown Transport. Shields match Skaraan export models. Reaction drive system is highly energetic, avoid zones in red. Technicaly not armed but reaction dive could do significant damage."/> 
   </vessel>
 	
 	<!-- Ingratus Ships-->
