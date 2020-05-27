@@ -3247,7 +3247,7 @@
 	<shields front="40" back="30"/>
     <performance turnrate="0.004" topspeed="0.75"/>
     <fleet_ai commonality="10"/>
-    <drone_port x=" 84" y="-4" z="286" damage="20" cycletime="2.0" range="2000"/>
+    <drone_port x=" 84" y="-4" z="286" damage="3.5" cycletime="2.0" range="2000"/>
     <beam_port x="0" y="2.5" z="-371.50" damage="5.5" arcwidth="0.175" cycletime="1.0" range="750"/>
     <beam_port x="0" y="2.5" z="-371.50" damage="4.25" arcwidth="0.03" cycletime="1.0" range="1500"/>
     <beam_port x="134.42" y="0" z="100.82" damage="5" arcwidth="0.03" cycletime="4.0" range="1000"/>
