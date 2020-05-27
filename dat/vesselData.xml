@@ -1376,6 +1376,30 @@
 	<fleet_ai commonality="1"/>
     <long_desc text="Comms relay node used by hegemony forces for long range communications."/>
   </vessel>
+  
+  <vessel uniqueID="1353" side="15" classname="Antenna" broadType="static network">
+    <art meshfile="dat/TSN/Gates/KralienSlingShotFocusAntenna.dxs" diffuseFile="dat/TSN/Gates/KralienSlingShotdif.png" glowFile="dat/TSN/Gates/KralienSlingShotdif.png" specularFile="dat/TSN/Gates/KralienSlingShotdif.png" scale="1" pushRadius="25" />
+	<!-- Weapons and Shields modified (1/4)-->
+    <shields front="200" back="200" />
+    <performance turnrate="0" topspeed="0" />
+    <long_desc text="Antenna array for Hegemony Slingshot systems. The antenna can be deployed independently to act as a target point for incoming ships." />
+  </vessel>
+  
+  <vessel uniqueID="1354" side="15" classname="Power" broadType="static network">
+    <art meshfile="dat/TSN/Gates/KralienSlingShotPower.dxs" diffuseFile="dat/TSN/Gates/KralienSlingShotdif.png" glowFile="dat/TSN/Gates/KralienSlingShotdif.png" specularFile="dat/TSN/Gates/KralienSlingShotdif.png" scale="1" pushRadius="25" />
+	<!-- Weapons and Shields modified (1/4)-->
+    <shields front="600" back="600" />
+    <performance turnrate="0" topspeed="0" />
+    <long_desc text="Power module for hegemony slingshot array installations. Heavily shielded." />
+  </vessel>
+  
+  <vessel uniqueID="1355" side="15" classname="Platform" broadType="static network">
+    <art meshfile="dat/TSN/Gates/SlingshotPlatform.dxs" diffuseFile="dat/TSN/Gates/KralienSlingShotdif.png" glowFile="dat/TSN/Gates/KralienSlingShotdif.png" specularFile="dat/TSN/Gates/KralienSlingShotdif.png" scale="1" pushRadius="25" />
+	<!-- Weapons and Shields modified (1/4)-->
+    <shields front="100" back="100" />
+    <performance turnrate="0" topspeed="0" />
+    <long_desc text="The main platform of hegemony slingshot array installations. The platform focuses energy to effectively catapult ships towards a target point. An antenna can be used at the target point to create a more accurate arrival location." />
+  </vessel>
 
    <!--**Free/Ulikai Bases 1400 - 1450**-->  
   <vessel    uniqueID="1400"    side="19"       classname="Station" broadType="base">
