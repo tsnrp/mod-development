@@ -1788,13 +1788,13 @@
     <engine_port x="0" y="29.64" z="-300"/>
     <engine_port x="84" y="-20.22" z="-250"/>
     <engine_port x="-84" y="-20.22" z="-250"/>
-    <beam_port x="-82.14" y="8.35" z="230.74" damage="1.8" arcwidth="0.4" cycletime="3.0" range="700"/>
-    <beam_port x=" 82.14" y="8.35" z="230.74" damage="1.8" arcwidth="0.4" cycletime="3.0" range="700"/>
-    <beam_port x="0" y="8.35" z="-230.74" damage="2.0" arcwidth="0.4" cycletime="3.0" range="700"/>
     <impulse_point x="0" y="29.64" z="-300"/>
     <impulse_point x="0" y="-8.3" z="-271.43"/>
     <maneuver_point x="-126.3" y="10" z="81.63"/>
     <maneuver_point x="126.3" y="-10" z="81.63"/>
+    <beam_port x="-82.14" y="8.35" z="230.74" damage="1.8" arcwidth="0.4" cycletime="3.0" range="700"/>
+    <beam_port x=" 82.14" y="8.35" z="230.74" damage="1.8" arcwidth="0.4" cycletime="3.0" range="700"/>
+    <beam_port x="0" y="-23.31" z="-114.5" damage="2.0" arcwidth="0.4" cycletime="3.0" range="700"/>
     <long_desc text="Small police or customs inspection boat, used mainly to inspect ships and run down smugglers."/>
   </vessel>
   
@@ -1864,12 +1864,9 @@
     <shields front="38" back="38" />
     <performance turnrate="0.001" topspeed="0.2" />
 	<engine_port x="0.023621" y="110.925163" z="346.862885"/>
-    <engine_port x="-32" y="0" z="-272"/>
-    <engine_port x="32" y="0" z="-272"/>
-    <impulse_point x="-32" y="0" z="-253.2"/>
-    <impulse_point x="32" y="0" z="-253.2"/>
-    <maneuver_point x="-23.74" y="0" z="195.82"/>
-    <maneuver_point x="32" y="0" z="195.82"/>
+    <impulse_point x="0.023621" y="110.925163" z="346.862885"/>
+	<maneuver_point x="-81.62" y="113.52" z="232.46"/>
+	<maneuver_point x="81.62" y="113.52" z="232.46"/>
     <long_desc text="Small mobile shipyard suitable for major repairs, and refits of most TSN vessels." />
   </vessel>
   
@@ -2235,7 +2232,7 @@
     <drone_port x="0" y="-10" z="0" damage="7.5" cycletime="30.0" range="5000"/>
     <beam_port x="-80" y="-7" z="200" damage="0.25" arcwidth="0.3" cycletime="6.0" range="1400"/>
     <beam_port x="80" y="-7" z="200" damage="0.25" arcwidth="0.3" cycletime="6.0" range="1400"/>
-    <beam_port x="0" y="-7" z="-180" damage="0.25" arcwidth="0.3" cycletime="6.0" range="1400"/>
+    <beam_port x="0" y="-67.34" z="-28.85" damage="0.25" arcwidth="0.3" cycletime="6.0" range="1400"/>
     <engine_port x="-63" y="-20" z="-161"/>
     <engine_port x="63" y="-20" z="-161"/>
     <engine_port x="144" y="-31" z="155"/>
@@ -2395,11 +2392,10 @@
     <engine_port x="-22" y="3" z="-211"/>
     <engine_port x=" 90" y="6" z="-83"/>
     <engine_port x="-90" y="6" z="-83"/>
-    <impulse_point x="-100" y="20" z="-262.26"/>
-    <impulse_point x="100" y="20" z="-262.26"/>
-    <impulse_point x="0" y="20" z="-134"/>
-    <maneuver_point x="-94.84" y="17.14" z="120.53"/>
-    <maneuver_point x="94.84" y="17.14" z="120.53"/>
+    <impulse_point x="-121.355705" y="30.381374" z="-20.283379"/>
+    <impulse_point x="121.355705" y="30.381374" z="-20.283379"/>
+    <maneuver_point x="-52.359570" y="7.509293" z="98.323151"/>
+    <maneuver_point x="52.359570" y="7.509293" z="98.323151"/>
     <long_desc text="Displacement: 40 kt. Armament: 2 medium beams. The Skaraan's lightest warship."/>
   </vessel>
 
@@ -2517,6 +2513,11 @@
     <engine_port x="0" y="20" z="-140"/>
     <engine_port x="-100" y="20" z="-270"/>
     <engine_port x="100" y="20" z="-270"/>
+    <impulse_point x="-100" y="20" z="-262.26"/>
+    <impulse_point x="100" y="20" z="-262.26"/>
+    <impulse_point x="0" y="20" z="-134"/>
+    <maneuver_point x="-94.84" y="17.14" z="120.53"/>
+    <maneuver_point x="94.84" y="17.14" z="120.53"/>
     <long_desc text="Hjorden system defence vessel."/>
   </vessel>
 
@@ -2568,6 +2569,11 @@
     <engine_port x="0" y="20" z="-140"/>
     <engine_port x="-100" y="20" z="-270"/>
     <engine_port x="100" y="20" z="-270"/>
+    <impulse_point x="-100" y="20" z="-262.26"/>
+    <impulse_point x="100" y="20" z="-262.26"/>
+    <impulse_point x="0" y="20" z="-134"/>
+    <maneuver_point x="-94.84" y="17.14" z="120.53"/>
+    <maneuver_point x="94.84" y="17.14" z="120.53"/>
     <long_desc text="Patrach-Edwards Necessity Class ^experimental field-modified Hjorden system defence vessel ^with TSN propulsion and ordnance adaptations"/>
   </vessel>
   
@@ -2612,9 +2618,9 @@
 	<shields front="50" back="50"/>
     <performance turnrate="0.0025" topspeed="0.44"/>
     <fleet_ai commonality="10"/>
-    <beam_port x="0" y="0" z="200" damage="0.75" arcwidth="0.70" cycletime="4.5" range="2000"/>
-    <impulse_point x="0" y="7" z="-200"/>
-    <impulse_point x="0" y="-7" z="-200"/>
+    <beam_port x="0" y="0" z="279.91" damage="0.75" arcwidth="0.70" cycletime="4.5" range="2000"/>
+    <impulse_point x="0" y="11" z="-266.94"/>
+    <impulse_point x="0" y="-7" z="-259.61"/>
     <maneuver_point x="47" y="0" z="-90"/>
     <maneuver_point x="-47" y="0" z="-90"/>
     <!--Center-->
@@ -2634,8 +2640,6 @@
     <beam_port x="122.408615" y="-1.892279" z="309.895630" damage="0.75" arcwidth="0.4" cycletime="3.0" range="1100"/> <!--starry 6 dec-->
     <beam_port x="-122.408615" y="-1.892279" z="309.895630" damage="0.75" arcwidth="0.4" cycletime="3.0" range="1100"/> <!--starry 6 dec-->
     <drone_port x="0" y="0" z="-97" damage="12.5" cycletime="90.0" range="1500"/>
-    <impulse_point x="-105.051376" y="33.399231" z="-310.554413"/>
-    <impulse_point x="105.051376" y="33.399231" z="-310.554413"/>
     <maneuver_point x="-130.350464" y="0.495908" z="24.108915"/>
     <maneuver_point x="130.350464" y="0.495908" z="24.108915"/>
     <!--Top Left-->
@@ -2688,10 +2692,6 @@
     <!--Center-->
     <engine_port x="0" y="36" z="-381"/>
     <engine_port x="0" y="-36" z="-381"/>
-	      <impulse_point x="0" y="18.94" z="-314.04"/>
-    <impulse_point x="0" y="-10.52" z="-303.12"/>
-    <maneuver_point x="-112.87" y="0" z="124.64"/>
-    <maneuver_point x="112.87" y="0" z="124.64"/>
     <long_desc text="Emu class battleship^Displacement: 20Kt "/>
   </vessel>
   
@@ -2701,18 +2701,18 @@
 	<shields front="150" back="63"/>
     <performance turnrate="0.003" topspeed="0.4"/>
     <fleet_ai commonality="1"/>
-    <beam_port x="0" y="0" z="200" damage="1.5" arcwidth="0.70" cycletime="3.0" range="900"/>
-    <beam_port x="1000" y="-5" z="202" damage="1" arcwidth="0.45" cycletime="2.0" range="1200"/>
-    <beam_port x="-80" y="-5" z="101" damage="1" arcwidth="0.45" cycletime="2.0" range="1200"/>
-    <impulse_point x="98" y="-19" z="-265"/>
-    <impulse_point x="-98" y="-19" z="-265"/>
-    <maneuver_point x="74" y="31" z="-178"/>
-    <maneuver_point x="-74" y="31" z="-178"/>
+    <beam_port x="0" y="0" z="313.85" damage="1.5" arcwidth="0.70" cycletime="3.0" range="900"/>
+    <beam_port x="83" y="-15.12" z="104" damage="1" arcwidth="0.45" cycletime="2.0" range="1200"/>
+    <beam_port x="-83" y="-15.12" z="104" damage="1" arcwidth="0.45" cycletime="2.0" range="1200"/>
     <!--Center-->
-    <engine_port x="99" y="30" z="-326"/>
-    <engine_port x="-99" y="30" z="-326"/>
-    <engine_port x="76" y="-20" z="-279"/>
-    <engine_port x="-76" y="-20" z="-279"/>
+    <engine_port x="0" y="18.94" z="-314.05"/>
+    <engine_port x="0" y="-10.52" z="-303.11"/>
+    <engine_port x="61.05" y="2.73" z="-244.92"/>
+    <engine_port x="-61.05" y="2.73" z="-244.92"/>
+    <impulse_point x="0" y="18.94" z="-314.04"/>
+    <impulse_point x="0" y="-10.52" z="-303.12"/>
+    <maneuver_point x="-112.87" y="0" z="124.64"/>
+    <maneuver_point x="112.87" y="0" z="124.64"/>
     <long_desc text="Nightmare class independent, long-range scout.^Displacement: 11Kt"/>
   </vessel>
   
@@ -2723,9 +2723,9 @@
     <performance turnrate="0.0018" topspeed="0.33"/>
     <fleet_ai commonality="10"/>
 	 <carrierload baycount="5" fighter="4"/>
-    <beam_port x="0" y="-60" z="126" damage="1.75" arcwidth="0.70" cycletime="3.0" range="1400"/>
-    <beam_port x="184" y="-15" z="191" damage="1.25" arcwidth="0.45" cycletime="3.0" range="2000"/>
-    <beam_port x="-184" y="-15" z="191" damage="1.25" arcwidth="0.45" cycletime="3.0" range="2000"/>
+    <beam_port x="0" y="-60" z="166.6" damage="1.75" arcwidth="0.70" cycletime="3.0" range="1400"/>
+    <beam_port x="-196" y="-17.14" z="190" damage="1.25" arcwidth="0.45" cycletime="3.0" range="2000"/>
+    <beam_port x="196" y="-17.14" z="190" damage="1.25" arcwidth="0.45" cycletime="3.0" range="2000"/>
     <drone_port x="-62" y="0" z="260" damage="13.75" cycletime="40.0" range="5400"/>
     <drone_port x="62" y="0" z="260" damage="13.75" cycletime="40.0" range="3000"/>
     <impulse_point x="70" y="70" z="-282.81"/>
@@ -2767,9 +2767,10 @@
     <!--FWD MAIN-->
     <beam_port x="0" y="31" z="163" damage="1.75" arcwidth="0.25" cycletime="6.0" range="1000"/>
     <!--FWD LOW-->
-    <beam_port x="0" y="-8" z="67" damage="1.75" arcwidth="1.0" cycletime="6.0" range="500"/>
-    <!--AFT-->
-    <beam_port x="0" y="42" z="-247" damage="1.25" arcwidth="0.15" cycletime="6.0" range="1000"/>
+    <beam_port x="0" y="-21.03" z="67.48" damage="1.75" arcwidth="1.0" cycletime="6.0" range="500"/>
+    <!--AFT MAIN-->
+    <beam_port x="0" y="54.3" z="-221.35" damage="1.25" arcwidth="0.15" cycletime="6.0" range="1000"/>
+    <!--AFT SIDE-->
     <beam_port x="7" y="40" z="-270" damage="0.63" arcwidth="0.07" cycletime="4.0" range="2000"/>
     <beam_port x="-7" y="40" z="-270" damage="0.63" arcwidth="0.07" cycletime="4.0" range="2000"/>
     <drone_port x="62" y="0" z="260" damage="15" cycletime="41.0" range="5000"/>
@@ -2837,23 +2838,23 @@
     <beam_port x="-118.15" y="0" z="313.19" damage="0.75" arcwidth="0.35" cycletime="6.0" range="1100"/>
     <beam_port x="164.87" y="0" z="105.74" damage="1.0" arcwidth="0.25" cycletime="12.0" range="950"/>
     <beam_port x="-164.87" y="0" z="105.74" damage="1.0" arcwidth="0.25" cycletime="12.0" range="950"/>
-	      <maneuver_point x="-167.4" y="0" z="84.84"/>
+    <maneuver_point x="-167.4" y="0" z="84.84"/>
     <maneuver_point x="167.4" y="0" z="84.84"/>
-	      <impulse_point x="-105.051376" y="33.399231" z="-310.554413"/>
-	      <impulse_point x="-105.051376" y="33.399231" z="-310.554413"/>
-	      <impulse_point x="-105.051376" y="33.399231" z="-310.554413"/>
     <!--Top Left-->
     <engine_port x="-98" y="43" z="-326"/>
     <engine_port x="-110" y="21" z="-326"/>
     <engine_port x="-86" y="21" z="-326"/>
+    <impulse_point x="-105.051376" y="33.399231" z="-310.554413"/>
     <!--Top Right-->
     <engine_port x="98" y="43" z="-326"/>
     <engine_port x="110" y="21" z="-326"/>
     <engine_port x="86" y="21" z="-326"/>
+    <impulse_point x="105.051376" y="33.399231" z="-310.554413"/>
     <!--Bottom Left and right silent on Battlecruiser variant. (Model as additional connections into forward hull and cannons)-->
     <!--Center-->
     <engine_port x="0" y="15" z="-284"/>
     <engine_port x="0" y="-17" z="-284"/>
+    <impulse_point x="0" y="15" z="-284"/> <!-- UE Dec2019 -->
     <long_desc text="Battlecruiser^Gallu Heavy Cruiser variant with high-powered beams and reinforced forward shields^2 forward heavy beams with wide arcs^2 broadside heavy beams with long range."/>
   </vessel>
   
@@ -2865,23 +2866,22 @@
     <performance turnrate="0.0035" topspeed="0.6"/>
     <beam_port x="132" y="-2" z="300" damage="1.0" arcwidth="0.4" cycletime="6.0" range="1000"/>
     <beam_port x="-132" y="-2" z="300" damage="1.0" arcwidth="0.4" cycletime="6.0" range="1000"/>
-	     <maneuver_point x="-167.4" y="0" z="84.84"/>
+    <maneuver_point x="-167.4" y="0" z="84.84"/>
     <maneuver_point x="167.4" y="0" z="84.84"/>
-	 <impulse_point x="-105.051376" y="33.399231" z="-310.554413"/>
-	 <impulse_point x="105.051376" y="33.399231" z="-310.554413"/>
-	 <impulse_point x="-73" y="-30" z="-280"/>
-	  <impulse_point x="73" y="-30" z="-280"/>
     <!--Bottom Left-->
     <engine_port x="-83" y="-13" z="-280"/>
     <engine_port x="-65" y="-14" z="-280"/>
     <engine_port x="-73" y="-30" z="-280"/>
+    <impulse_point x="-73" y="-30" z="-280"/>
     <!--Bottom Right-->
     <engine_port x="83" y="-13" z="-280"/>
     <engine_port x="65" y="-14" z="-280"/>
     <engine_port x="73" y="-30" z="-280"/>
+    <impulse_point x="73" y="-30" z="-280"/>
     <!--Center-->
     <engine_port x="0" y="15" z="-284"/>
     <engine_port x="0" y="-17" z="-284"/>
+    <impulse_point x="0" y="15" z="-284"/>
     <long_desc text="Command Cruiser^Gallu Heavy Cruiser variant capable of projecting a small fighter force^2 standard beams with reduced intensity."/>
   </vessel>
 
@@ -2895,22 +2895,28 @@
     <beam_port x="-41" y="-2" z="340.17" damage="0.5" arcwidth="0.33" cycletime="6" range="1100"/>
     <beam_port x="82" y="-2" z="330.15" damage="1.75" arcwidth="0.25" cycletime="6" range="800"/>
     <beam_port x="-82" y="-2" z="330.15" damage="1.75" arcwidth="0.25" cycletime="6" range="800"/>
+    <maneuver_point x="-167.4" y="0" z="84.84"/>
+    <maneuver_point x="167.4" y="0" z="84.84"/>
     <!--Top Left-->
     <engine_port x="-98" y="43" z="-326"/>
     <engine_port x="-110" y="21" z="-326"/>
     <engine_port x="-86" y="21" z="-326"/>
+    <impulse_point x="-105.051376" y="33.399231" z="-310.554413"/>
     <!--Top Right-->
     <engine_port x="98" y="43" z="-326"/>
     <engine_port x="110" y="21" z="-326"/>
     <engine_port x="86" y="21" z="-326"/>
+    <impulse_point x="105.051376" y="33.399231" z="-310.554413"/>
     <!--Bottom Left-->
     <engine_port x="-83" y="-13" z="-280"/>
     <engine_port x="-65" y="-14" z="-280"/>
     <engine_port x="-73" y="-30" z="-280"/>
+    <impulse_point x="-73" y="-30" z="-280"/>
     <!--Bottom Right-->
     <engine_port x="83" y="-13" z="-280"/>
     <engine_port x="65" y="-14" z="-280"/>
     <engine_port x="73" y="-30" z="-280"/>
+    <impulse_point x="73" y="-30" z="-280"/>
     <long_desc text="Interceptor Cruiser^High-speed combat scout derived from the Gallu class cruiser^4 reduced intensity beams geared for extended range or wide arcs."/>
   </vessel>
   
@@ -2943,8 +2949,8 @@
     <beam_port x="0" y="14" z="267" damage="1.75" playerdamage="20" arcwidth="0.12" cycletime="21.0" range="800"/>
     <beam_port x="0" y="0" z="280" damage="1,75" playerdamage="20" arcwidth="0.12" cycletime="21.0" range="800"/>
     <beam_port x="0" y="-14" z="267" damage="1.75" playerdamage="20" arcwidth="0.12" cycletime="21.0" range="800"/>
-    <beam_port x="144.87" y="0" z="105.74" damage="0.2" playerdamage="1.0" arcwidth="0.34" cycletime="4.8" range="1100"/>
-    <beam_port x="-144.87" y="0" z="105.74"  damage="0.2" playerdamage="1.0" arcwidth="0.34" cycletime="4.8" range="1100"/>
+    <beam_port x="182.96" y="0" z="133.19" damage="0.2" playerdamage="1.0" arcwidth="0.34" cycletime="4.8" range="1100"/>
+    <beam_port x="-182.96" y="0" z="133.19"  damage="0.2" playerdamage="1.0" arcwidth="0.34" cycletime="4.8" range="1100"/>
     <!--Center-->
  <engine_port x="0" y="15" z="-271"/>
     <engine_port x="0" y="-10" z="-271"/>
@@ -3030,8 +3036,8 @@
     <beam_port x="0" y="-10" z="-10" damage="0.25" arcwidth="0.40" cycletime="5.0" range="1000"/>
     <beam_port x="19" y="-10" z="10" damage="0.25" arcwidth="0.50" cycletime="5.0" range="2000"/>
     <beam_port x="19" y="-10" z="10" damage="0.25" arcwidth="0.50" cycletime="5.0" range="2000"/>
-    <impulse_point x="19" y="0" z="-10"/>
-    <impulse_point x="-19" y="0" z="-10"/>
+    <impulse_point x="9.27" y="0.47" z="-20.72"/>
+    <impulse_point x="-9.27" y="0.47" z="-20.72"/>
     <engine_port x="0" y="0" z="-10"/>
     <engine_port x="-19" y="0" z="-10"/>
     <engine_port x="19" y="0" z="-10"/>
@@ -3075,21 +3081,21 @@
     <fleet_ai commonality="50"/>
 <carrierload baycount="8"/>
     <!--FORWARD BEAMS-->
-    <beam_port x="-19" y="10" z="-29" damage="0.63" arcwidth="0.40" cycletime="2.0" range="1500"/>
-    <beam_port x="19" y="10" z="-29" damage="0.63" arcwidth="0.4" cycletime="2.0" range="1000"/>
-    <beam_port x="0" y="10" z="-10" damage="0.63" arcwidth="0.40" cycletime="2.0" range="1600"/>
-    <beam_port x="0" y="10" z="10" damage="0.63" arcwidth="0.70" cycletime="2.0" range="3500"/>
-    <beam_port x="-19" y="10" z="-29" damage="0.63" arcwidth="0.40" cycletime="2.0" range="1500"/>
-    <beam_port x="19" y="-10" z="-29" damage="0.63" arcwidth="0.40" cycletime="2.0" range="1500"/>
+    <beam_port x="-19" y="10" z="29" damage="0.63" arcwidth="0.40" cycletime="2.0" range="1500"/>
+    <beam_port x="19" y="10" z="29" damage="0.63" arcwidth="0.4" cycletime="2.0" range="1500"/>
+    <beam_port x="0" y="10" z="10" damage="0.63" arcwidth="0.40" cycletime="2.0" range="1600"/>
+    <beam_port x="0" y="-2.03" z="20.94" damage="0.63" arcwidth="0.70" cycletime="2.0" range="3500"/>
+    <beam_port x="-19" y="10" z="29" damage="0.63" arcwidth="0.40" cycletime="2.0" range="1500"/>
+    <beam_port x="19" y="-10" z="29" damage="0.63" arcwidth="0.40" cycletime="2.0" range="1500"/>
     <!--REAR BEAMS-->
     <beam_port x="-19" y="-10" z="-29" damage="0.63" arcwidth="0.30" cycletime="2.0" range="1500"/>
     <beam_port x="19" y="-10" z="-29" damage="0.63" arcwidth="0.30" cycletime="2.0" range="1500"/>
-    <beam_port x="0" y="-10" z="-10" damage="0.63" arcwidth="0.70" cycletime="2.0" range="3500"/>
+    <beam_port x="0" y="-2.34" z="-21.48" damage="0.63" arcwidth="0.70" cycletime="2.0" range="3500"/>
     <beam_port x="-19" y="-10" z="-29" damage="0.63" arcwidth="0.30" cycletime="2.0" range="1500"/>
     <beam_port x="19" y="-10" z="-29" damage="0.63" arcwidth="0.30" cycletime="2.0" range="1500"/>
-    <impulse_point x="0" y="-10" z="-29"/>
+    <impulse_point x="18.3" y="-1.36" z="-39.87"/>
     <impulse_point x="0" y="0" z="0"/>
-    <impulse_point x="-19" y="0" z="-10"/>
+    <impulse_point x="-18.3" y="-1.36" z="-39.87"/>
     <engine_port x="0" y="-10" z="-29"/>
     <engine_port x="0" y="-10" z="29"/>
     <engine_port x="0" y="-10" z="-29"/>
@@ -3304,10 +3310,10 @@
     <engine_port x=" 85.449120" y="-8.132334" z="-201.552475"/>
     <engine_port x=" 45.808228" y="-1.427677" z="-189.611588"/>
     <engine_port x=" 67.651352" y="-6.247528" z="-195.777618"/>
-    <impulse_point x="-31" y="13.66" z="-25.12"/>
-    <impulse_point x="31" y="13.66" z="-25.12"/>
-    <maneuver_point x="-80" y="2.16" z="141.33"/>
-    <maneuver_point x="80" y="2.16" z="141.33"/>
+    <impulse_point x="-67.651352" y="-6.247528" z="-195.777618"/>
+    <impulse_point x=" 67.651352" y="-6.247528" z="-195.777618"/>
+    <maneuver_point x="-70.89" y="-5.77" z="158.76"/>
+    <maneuver_point x=" 70.89" y="-5.77" z="158.76"/>
     <long_desc text="Ximni Missile Cruiser^Specialized vessel of the Ximni.^4 Torpedo tubes^Stores for 8 nukes, 20 homing, 14 mines, 12 ECM, 6 PShock."/>    
   </vessel>
 
