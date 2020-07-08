@@ -1003,7 +1003,7 @@
 	<impulse_point x="0" y="29.64" z="-300"/>
 	<long_desc text="Orion class Modified Scout^1 forward beam, 1 Focused Ionic Disruptor^1 Torpedo tube^Stores for 6 homing, 2 mines, 2 ECM, 1 PShock."/>
   </vessel>
-    <!--                          Undercover #Ops TSN Transport
+    <!--                          Undercover Black Ops TSN Transport
    Speed: TSN Warp 1 Equivalent at Warp Factor 3
    Efficiency: Standard TSN Efficiency on per-factor basis.
    Combat Systems: Shield power reduced by half; power rerouted to standard TSN beam and torpedo tube -->
