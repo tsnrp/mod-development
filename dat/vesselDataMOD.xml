@@ -1003,6 +1003,37 @@
 	<impulse_point x="0" y="29.64" z="-300"/>
 	<long_desc text="Orion class Modified Scout^1 forward beam, 1 Focused Ionic Disruptor^1 Torpedo tube^Stores for 6 homing, 2 mines, 2 ECM, 1 PShock."/>
   </vessel>
+
+  <!--                          Undercover BlackOps TSN Transport
+     Speed: TSN Warp 1 Equivalent at Warp Factor 3
+     Efficiency: Standard TSN Efficiency on per-factor basis.
+     Combat Systems: Shield power reduced by half; power rerouted to TSN Disruptor Turret -->
+    <vessel uniqueID="26" side="0" classname="Transport" broadType="player transport">
+        <art meshfile="dat/TSN/Player/BlackOpsFreighter.dxs" diffuseFile="dat/TSN/Hegemony/kralien-transport.png" glowFile="dat/TSN/Player/BlackOpsFreighterGlow.png" specularFile="dat/TSN/Hegemony/kralien-transport.png" scale="0.374" pushRadius="200"/>
+        <internal_data file="dat/TSN/Player/BlackOpsFreighter.snt"/>
+        <performance turnrate="0.0025" topspeed="0.15" shipefficiency="0.6" warpefficiency="0.3" jumpefficiency="1.0"/>
+        <!-- Weapons and Shields modified (1/4)-->
+        <shields front="30" back="30"/>
+        <beam_port x="0" y="-53.2" z="144.1" damage="2" playerdamage="0" arcwidth="1" cycletime="3.0" range="1000"/>
+        <torpedo_tube x="0" y="8.35" z="258.74"/>
+        <torpedo_storage type="trp" amount="0"/> <!-- Homing"-->
+        <torpedo_storage type="nuk" amount="0"/> <!-- LR Nuke-->
+        <torpedo_storage type="min" amount="0"/> <!-- Mine"-->
+        <torpedo_storage type="emp" amount="0"/> <!-- EMP"-->
+        <torpedo_storage type="shk" amount="0"/> <!-- Plasma Shock"-->
+        <torpedo_storage type="bea" amount="0"/> <!-- Beacon"-->
+        <torpedo_storage type="pro" amount="0"/> <!-- Probe"-->
+        <torpedo_storage type="tag" amount="0"/> <!-- Tag"-->
+        <engine_port x="0" y="105.4" z="-175"/>
+        <engine_port x="0" y="57.1" z="-175"/>
+        <engine_port x="0" y="-66.5" z="-130"/>
+        <impulse_point x="0.02" y="105.4" z="-167.4"/>
+        <impulse_point x="0.54" y="57.1" z="-167.4"/>
+        <impulse_point x="0.20" y="-66.5" z="-130"/>
+        <maneuver_point x="17" y="72.4" z="92.3"/>
+        <maneuver_point x="-17" y="72.4" z="92.3"/>
+        <long_desc text="Captured kralien armoured freighter. ^Retooled with TSN technology. ^1 Disruptor Turret and outdated warpdrive.^Arouses little suspicion behind enemy lines."/>
+    </vessel>
   
   <!-- ****************************** single-seat ships (fighters, bombers, shuttles) 100 - 131 **************************************** -->
   <vessel    uniqueID="100"    side="0"       classname="TSN Medium Fighter" broadType="player singleseat fighter">
@@ -1469,10 +1500,14 @@
   </vessel>
   
   <vessel uniqueID="1355" side="15" classname="Platform" broadType="static network">
-    <art meshfile="dat/TSN/Gates/SlingshotPlatform.dxs" diffuseFile="dat/TSN/Gates/KralienSlingShotdif.png" glowFile="dat/TSN/Gates/KralienSlingShotdif.png" specularFile="dat/TSN/Gates/KralienSlingShotdif.png" scale="1" pushRadius="25" />
+    <art meshfile="dat/TSN/Gates/SlingshotPlatform.dxs" diffuseFile="dat/TSN/Gates/SlingshotPlatform_diff.png" glowFile="dat/TSN/Gates/SlingshotPlatform_glow.png" specularFile="dat/TSN/Gates/SlingshotPlatform_spec.png" scale="1" pushRadius="300" />
 	<!-- Weapons and Shields modified (1/4)-->
-    <shields front="100" back="100" />
+    <shields front="2000" back="2000" />
     <performance turnrate="0" topspeed="0" />
+	<beam_port x="299.20" y="69.73" z="-23.49" damage="0.5" arcwidth="0.170" cycletime="6.0" range="1500"/>
+<beam_port x="-299.20" y="69.73" z="-23.49" damage="0.5" arcwidth="0.170" cycletime="6.0" range="1500"/>
+<drone_port x="301.86" y="66.59" z="-303.13" damage="5" cycletime="30.0" range="5000"/>
+<drone_port x="-301.86" y="66.59" z="-303.13" damage="5" cycletime="30.0" range="5000"/>
     <long_desc text="The main platform of hegemony slingshot array installations. The platform focuses energy to effectively catapult ships towards a target point. An antenna can be used at the target point to create a more accurate arrival location." />
   </vessel>
 
