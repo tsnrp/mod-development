@@ -1034,7 +1034,7 @@
         <maneuver_point x="-17" y="72.4" z="92.3"/>
         <long_desc text="Captured kralien armoured freighter. ^Retooled with TSN technology. ^1 Disruptor Turret and outdated warpdrive.^Arouses little suspicion behind enemy lines."/>
     </vessel>
-	
+  
   <!-- ****************************** single-seat ships (fighters, bombers, shuttles) 100 - 131 **************************************** -->
   <vessel    uniqueID="100"    side="0"       classname="TSN Medium Fighter" broadType="player singleseat fighter">
     <art     meshfile="dat/TSNFighter.dxs"    diffuseFile="dat/LightCruiser_Diffuse.png"
