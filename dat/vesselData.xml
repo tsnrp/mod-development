@@ -1498,7 +1498,7 @@
   </vessel>
   
   <vessel uniqueID="1355" side="15" classname="Platform" broadType="static network">
-    <art meshfile="dat/TSN/Gates/SlingshotPlatform.dxs" diffuseFile="dat/TSN/Gates/SlingshotPlatform_diff.png" glowFile="dat/TSN/Gates/SlingshotPlatform_glow.png" specularFile="dat/TSN/Gates/SlingshotPlatform_spec.png" scale="1" pushRadius="25" />
+    <art meshfile="dat/TSN/Gates/SlingshotPlatform.dxs" diffuseFile="dat/TSN/Gates/SlingshotPlatform_diff.png" glowFile="dat/TSN/Gates/SlingshotPlatform_glow.png" specularFile="dat/TSN/Gates/SlingshotPlatform_spec.png" scale="1" pushRadius="120" />
 	<!-- Weapons and Shields modified (1/4)-->
     <shields front="2000" back="2000" />
     <performance turnrate="0" topspeed="0" />
