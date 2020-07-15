@@ -1045,16 +1045,17 @@
         <performance turnrate="0.0025" topspeed="0.15" shipefficiency="0.6" warpefficiency="0.3" jumpefficiency="1.0"/>
         <!-- Weapons and Shields modified (1/4)-->
         <shields front="30" back="30"/>
-        <beam_port x="0" y="-53.2" z="144.1" damage="2" playerdamage="0" arcwidth="1" cycletime="3.0" range="1000"/>
-        <torpedo_tube x="0" y="8.35" z="258.74"/>
-        <torpedo_storage type="trp" amount="0"/> <!-- Homing"-->
-        <torpedo_storage type="nuk" amount="0"/> <!-- LR Nuke-->
-        <torpedo_storage type="min" amount="0"/> <!-- Mine"-->
-        <torpedo_storage type="emp" amount="0"/> <!-- EMP"-->
-        <torpedo_storage type="shk" amount="0"/> <!-- Plasma Shock"-->
-        <torpedo_storage type="bea" amount="0"/> <!-- Beacon"-->
-        <torpedo_storage type="pro" amount="0"/> <!-- Probe"-->
-        <torpedo_storage type="tag" amount="0"/> <!-- Tag"-->
+       	<beam_port range="1000" cycletime="4.0" arcwidth="0.4" playerdamage="2" damage="0.25" z="144.1" y="-53.2" x="0"/>
+		<beam_port range="1000" cycletime="4.0" arcwidth="0.4" playerdamage="0" damage="0" z="-144.1" y="-53.2" x="0"/>
+		<torpedo_tube z="258.74" y="8.35" x="0"/>
+		<torpedo_storage amount="0" type="trp"/><!-- Homing"-->
+		<torpedo_storage amount="0" type="nuk"/><!-- LR Nuke-->
+		<torpedo_storage amount="0" type="min"/><!-- Mine"-->
+		<torpedo_storage amount="0" type="emp"/><!-- EMP"-->
+		<torpedo_storage amount="0" type="shk"/><!-- Plasma Shock"-->
+		<torpedo_storage amount="2" type="bea"/><!-- Beacon"-->
+		<torpedo_storage amount="10" type="pro"/><!-- Probe"-->
+		<torpedo_storage amount="10" type="tag"/><!-- Tag"-->
         <engine_port x="0" y="105.4" z="-175"/>
         <engine_port x="0" y="57.1" z="-175"/>
         <engine_port x="0" y="-66.5" z="-130"/>
@@ -1063,7 +1064,7 @@
         <impulse_point x="0.20" y="-66.5" z="-130"/>
         <maneuver_point x="17" y="72.4" z="92.3"/>
         <maneuver_point x="-17" y="72.4" z="92.3"/>
-        <long_desc text="Captured kralien armoured freighter. ^Retooled with TSN technology. ^1 Disruptor Turret and outdated warpdrive.^Arouses little suspicion behind enemy lines."/>
+        <long_desc text="Captured kralien armoured freighter. ^Retooled with TSN technology. ^1 standard beam and 1 rear Disruptor beam and outdated warpdrive.^Arouses little suspicion behind enemy lines."/>
     </vessel>
 	
   <!-- ****************************** single-seat ships (fighters, bombers, shuttles) 100 - 131 **************************************** -->
