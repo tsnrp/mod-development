@@ -128,21 +128,21 @@
   </hullRace>
 	
 	  <hullRace ID="20" name="Dinkuno" keys="FactionDinkuno">
-    <taunt immunity="belongs to the Uphan religious group" text="Didn’t you have your large meal yesterday?"/>
-    <taunt immunity="has binocular mutation" text="Your four eyes are your most disgusting feature"/>
-    <taunt immunity="led infantry forces on surface engagements on various worlds" text="You’re so weak, my grandmother could take you!"/>
+    <taunt immunity="Belongs to the Uphan religious group" text="Didn’t you have your large meal yesterday?"/>
+    <taunt immunity="Has binocular mutation" text="Your four eyes are your most disgusting feature"/>
+    <taunt immunity="Led infantry forces on surface engagements on various worlds" text="You’re so weak my grandmother could take you!"/>
   </hullRace>
 	
-	  <hullRace ID="21" name="Budron" keys="FactionBudron">
-    <taunt immunity="is known to soak daily" text="You are looking a bit prunish!"/>
-    <taunt immunity="has a first in digestive chemistry" text="Was that deliberate or did you just fart and explode half your crew?"/>
-    <taunt immunity="is mild-mannered" text="Hey, you need to take a chill pill"/>
+	  <hullRace ID="21" name="Budon" keys="FactionBudron">
+    <taunt immunity="is known to soak daily" text="You are lookng a bit prunish!"/>
+    <taunt immunity="Has a first in digestive chemistry" text="Was that deliberate or did you just fart and explode half your crew?"/>
+    <taunt immunity="Is mild-mannered" text="Hey, you need to take a chill pill"/>
   </hullRace>
 	
 		  <hullRace ID="22" name="Sechatzal" keys="FactionSechatzal">
-    <taunt immunity="has particularly good stealth organs" text="I can see you!"/>
+    <taunt immunity="has particularly good stealth organs" text="I can seee you!"/>
     <taunt immunity="is ancient" text="Should you not still be in the spawning pools?"/>
-    <taunt immunity="is a recon expert" text="Look, the point is to get the info... not display it!"/>
+    <taunt immunity="is a recon expert" text="Look the point is to get the info.. Not display it!"/>
   </hullRace>
 
     <!-- ****************************** TSN capital ships 0 - 7**************************************** -->
@@ -779,10 +779,11 @@
 		<!-- Weapons and Shields modified (1/4)-->
     <shields front="20" back="20" />
     <performance turnrate="0.004" topspeed="0.6" shipefficiency="0.6" warpefficiency="0.3" jumpefficiency="1.0" />
-<beam_port x="0.00" y="0" z="287" damage="0.38" playerdamage="3.75" arcwidth="0.12" cycletime="30.0" range="800" />
-	<beam_port x="0.00" y="0" z="287" damage="0.38" playerdamage="3.75" arcwidth="0.12" cycletime="30.0" range="800" />
-	<beam_port x="0.00" y="0" z="287" damage="0.38" playerdamage="3.75" arcwidth="0.12" cycletime="30.0" range="800" />
+	<beam_port x="0.00" y="0" z="287" damage="0.38" playerdamage="4.75" arcwidth="0.12" cycletime="30.0" range="800" />
+	<beam_port x="0.00" y="0" z="287" damage="0.38" playerdamage="4.75" arcwidth="0.12" cycletime="30.0" range="800" />
+	<beam_port x="0.00" y="0" z="287" damage="0.38" playerdamage="4.75" arcwidth="0.12" cycletime="30.0" range="800" />
     <beam_port x="0.0" y="50" z="224" damage="0.25" playerdamage="2.25" arcwidth="0.4" cycletime="5.0" range="1000" />
+	<beam_port x="0.0" y="50" z="224" damage="0.25" playerdamage="2.25" arcwidth="0.4" cycletime="5.0" range="1000" />
     <torpedo_tube x="0" y="8.35" z="258.74" />
     <torpedo_tube x="0" y="8.35" z="258.74" />
 	<torpedo_storage type="trp" amount="10"/>  <!-- Homing"-->
@@ -1008,7 +1009,8 @@
      Speed: TSN Warp 1 Equivalent at Warp Factor 3
      Efficiency: Standard TSN Efficiency on per-factor basis.
      Combat Systems: Shield power reduced by half; power rerouted to TSN Disruptor Turret -->
-    <vessel uniqueID="26" side="0" classname="Transport" broadType="player transport">
+	 
+	<vessel uniqueID="26" side="0" classname="Black Ops Freighter (A)" broadType="player transport">
         <art meshfile="dat/TSN/Player/BlackOpsFreighter.dxs" diffuseFile="dat/TSN/Hegemony/kralien-transport.png" glowFile="dat/TSN/Player/BlackOpsFreighterGlow.png" specularFile="dat/TSN/Hegemony/kralien-transport.png" scale="0.374" pushRadius="200"/>
         <internal_data file="dat/TSN/Player/BlackOpsFreighter.snt"/>
         <performance turnrate="0.0025" topspeed="0.15" shipefficiency="0.6" warpefficiency="0.3" jumpefficiency="1.0"/>
@@ -1034,7 +1036,35 @@
         <maneuver_point x="-17" y="72.4" z="92.3"/>
         <long_desc text="Captured kralien armoured freighter. ^Retooled with TSN technology. ^1 Disruptor Turret and outdated warpdrive.^Arouses little suspicion behind enemy lines."/>
     </vessel>
-  
+	
+	<vessel uniqueID="27" side="0" classname="Black Ops Freighter (B)" broadType="player transport">
+        <art meshfile="dat/TSN/Player/BlackOpsFreighter.dxs" diffuseFile="dat/TSN/Hegemony/kralien-transport.png" glowFile="dat/TSN/Player/BlackOpsFreighterGlow.png" specularFile="dat/TSN/Hegemony/kralien-transport.png" scale="0.374" pushRadius="200"/>
+        <internal_data file="dat/TSN/Player/BlackOpsFreighter.snt"/>
+        <performance turnrate="0.0025" topspeed="0.15" shipefficiency="0.6" warpefficiency="0.3" jumpefficiency="1.0"/>
+        <!-- Weapons and Shields modified (1/4)-->
+        <shields front="30" back="30"/>
+       	<beam_port range="1000" cycletime="4.0" arcwidth="0.4" playerdamage="2" damage="0.25" z="144.1" y="-53.2" x="0"/>
+		<beam_port range="1000" cycletime="4.0" arcwidth="0.4" playerdamage="0" damage="0" z="-144.1" y="-53.2" x="0"/>
+		<torpedo_tube z="258.74" y="8.35" x="0"/>
+		<torpedo_storage amount="0" type="trp"/><!-- Homing"-->
+		<torpedo_storage amount="0" type="nuk"/><!-- LR Nuke-->
+		<torpedo_storage amount="0" type="min"/><!-- Mine"-->
+		<torpedo_storage amount="0" type="emp"/><!-- EMP"-->
+		<torpedo_storage amount="0" type="shk"/><!-- Plasma Shock"-->
+		<torpedo_storage amount="2" type="bea"/><!-- Beacon"-->
+		<torpedo_storage amount="10" type="pro"/><!-- Probe"-->
+		<torpedo_storage amount="10" type="tag"/><!-- Tag"-->
+        <engine_port x="0" y="105.4" z="-175"/>
+        <engine_port x="0" y="57.1" z="-175"/>
+        <engine_port x="0" y="-66.5" z="-130"/>
+        <impulse_point x="0.02" y="105.4" z="-167.4"/>
+        <impulse_point x="0.54" y="57.1" z="-167.4"/>
+        <impulse_point x="0.20" y="-66.5" z="-130"/>
+        <maneuver_point x="17" y="72.4" z="92.3"/>
+        <maneuver_point x="-17" y="72.4" z="92.3"/>
+        <long_desc text="Captured kralien armoured freighter. ^Retooled with TSN technology. ^1 standard beam and 1 rear Disruptor beam and outdated warpdrive.^Arouses little suspicion behind enemy lines."/>
+    </vessel>
+	
   <!-- ****************************** single-seat ships (fighters, bombers, shuttles) 100 - 131 **************************************** -->
   <vessel    uniqueID="100"    side="0"       classname="TSN Medium Fighter" broadType="player singleseat fighter">
     <art     meshfile="dat/TSNFighter.dxs"    diffuseFile="dat/LightCruiser_Diffuse.png"
@@ -1484,7 +1514,7 @@
   </vessel>
   
   <vessel uniqueID="1353" side="15" classname="Antenna" broadType="static network">
-    <art meshfile="dat/TSN/Gates/KralienSlingShotFocusAntenna.dxs" diffuseFile="dat/TSN/Gates/KralienSlingShotdif.png" glowFile="dat/TSN/Gates/KralienSlingShotdif.png" specularFile="dat/TSN/Gates/KralienSlingShotdif.png" scale="1" pushRadius="25" />
+    <art meshfile="dat/TSN/Gates/KralienSlingShotFocusAntenna.dxs" diffuseFile="dat/TSN/Gates/KralienSlingShotdif.png" glowFile="dat/TSN/Gates/KralienSlingShotglow.png" specularFile="dat/TSN/Gates/KralienSlingShotspec.png" scale="0.2" pushRadius="100" />
 	<!-- Weapons and Shields modified (1/4)-->
     <shields front="200" back="200" />
     <performance turnrate="0" topspeed="0" />
@@ -1492,7 +1522,7 @@
   </vessel>
   
   <vessel uniqueID="1354" side="15" classname="Power" broadType="static network">
-    <art meshfile="dat/TSN/Gates/KralienSlingShotPower.dxs" diffuseFile="dat/TSN/Gates/KralienSlingShotdif.png" glowFile="dat/TSN/Gates/KralienSlingShotdif.png" specularFile="dat/TSN/Gates/KralienSlingShotdif.png" scale="1" pushRadius="25" />
+    <art meshfile="dat/TSN/Gates/KralienSlingShotPower.dxs" diffuseFile="dat/TSN/Gates/KralienSlingShotdif.png" glowFile="dat/TSN/Gates/KralienSlingShotglow.png" specularFile="dat/TSN/Gates/KralienSlingShotspec.png" scale="0.25" pushRadius="150" />
 	<!-- Weapons and Shields modified (1/4)-->
     <shields front="600" back="600" />
     <performance turnrate="0" topspeed="0" />
@@ -1500,14 +1530,14 @@
   </vessel>
   
   <vessel uniqueID="1355" side="15" classname="Platform" broadType="static network">
-    <art meshfile="dat/TSN/Gates/SlingshotPlatform.dxs" diffuseFile="dat/TSN/Gates/SlingshotPlatform_diff.png" glowFile="dat/TSN/Gates/SlingshotPlatform_glow.png" specularFile="dat/TSN/Gates/SlingshotPlatform_spec.png" scale="1" pushRadius="300" />
+    <art meshfile="dat/TSN/Gates/SlingshotPlatform.dxs" diffuseFile="dat/TSN/Gates/SlingshotPlatform_diff.png" glowFile="dat/TSN/Gates/SlingshotPlatform_glow.png" specularFile="dat/TSN/Gates/SlingshotPlatform_spec.png" scale="1" pushRadius="120" />
 	<!-- Weapons and Shields modified (1/4)-->
     <shields front="2000" back="2000" />
     <performance turnrate="0" topspeed="0" />
-	<beam_port x="299.20" y="69.73" z="-23.49" damage="0.5" arcwidth="0.170" cycletime="6.0" range="1500"/>
+	<!-- <beam_port x="299.20" y="69.73" z="-23.49" damage="0.5" arcwidth="0.170" cycletime="6.0" range="1500"/>
 <beam_port x="-299.20" y="69.73" z="-23.49" damage="0.5" arcwidth="0.170" cycletime="6.0" range="1500"/>
 <drone_port x="301.86" y="66.59" z="-303.13" damage="5" cycletime="30.0" range="5000"/>
-<drone_port x="-301.86" y="66.59" z="-303.13" damage="5" cycletime="30.0" range="5000"/>
+<drone_port x="-301.86" y="66.59" z="-303.13" damage="5" cycletime="30.0" range="5000"/> -->
     <long_desc text="The main platform of hegemony slingshot array installations. The platform focuses energy to effectively catapult ships towards a target point. An antenna can be used at the target point to create a more accurate arrival location." />
   </vessel>
 
@@ -3557,16 +3587,6 @@
     <engine_port x="119.31" y="-16.16" z="-859.5"/>
     <engine_port x="126.31" y="-16.16" z="-909.5"/>
     <engine_port x="133.31" y="-16.16" z="-959.5"/>
-    <engine_port x="140.31" y="-16.16" z="-1009.5"/>
-    <engine_port x="147.31" y="-16.16" z="-1059.5"/>
-    <engine_port x="154.31" y="-16.16" z="-1109.5"/>
-    <engine_port x="161.31" y="-16.16" z="-1159.5"/>
-    <engine_port x="168.31" y="-16.16" z="-1209.5"/>
-    <engine_port x="175.31" y="-16.16" z="-1259.5"/>
-    <engine_port x="182.31" y="-16.16" z="-1309.5"/>
-    <engine_port x="189.31" y="-16.16" z="-1359.5"/>
-    <engine_port x="196.31" y="-16.16" z="-1409.5"/>
-    <engine_port x="203.31" y="-16.16" z="-1459.5"/>
     <engine_port x="-56.31" y="-16.16" z="-409.5"/>
     <engine_port x="-63.31" y="-16.16" z="-459.5"/>
     <engine_port x="-70.31" y="-16.16" z="-509.5"/>
@@ -3579,16 +3599,7 @@
     <engine_port x="-119.31" y="-16.16" z="-859.5"/>
     <engine_port x="-126.31" y="-16.16" z="-909.5"/>
     <engine_port x="-133.31" y="-16.16" z="-959.5"/>
-    <engine_port x="-140.31" y="-16.16" z="-1009.5"/>
-    <engine_port x="-147.31" y="-16.16" z="-1059.5"/>
-    <engine_port x="-154.31" y="-16.16" z="-1109.5"/>
-    <engine_port x="-161.31" y="-16.16" z="-1159.5"/>
-    <engine_port x="-168.31" y="-16.16" z="-1209.5"/>
-    <engine_port x="-175.31" y="-16.16" z="-1259.5"/>
-    <engine_port x="-182.31" y="-16.16" z="-1309.5"/>
-    <engine_port x="-189.31" y="-16.16" z="-1359.5"/>
-    <engine_port x="-196.31" y="-16.16" z="-1409.5"/>
-    <engine_port x="-203.31" y="-16.16" z="-1459.5"/>
+
     <long_desc text="Unknown Transport. Shields match Skaraan export models.^Reaction drive system is highly energetic - avoid zones in red.^Vessel primary armamant appears to be short range, low damage drone launchers."/> 
    </vessel>
 	
@@ -3681,7 +3692,7 @@
     <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
     <maneuver_point x="182.37" y="-17.78" z="202.89"/>
     <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
-    <long_desc text="Wretched class battlecruiser.^1x high intensity pulse laser (Fore), 1x medium intensity pulse laser (Aft)"/> 
+    <long_desc text="Wretched class Battlecruiser.^1x high intensity pulse laser (Fore), 1x medium intensity pulse laser (Aft)"/> 
   </vessel>
 	
 		<vessel uniqueID="7705" side="21" classname="Vehement" broadType="Large">
@@ -3767,7 +3778,11 @@
     <engine_port x="0" y="0" z="-230"/>
     <engine_port x="92" y="-7" z="-240"/>
     <engine_port x="-92" y="-7" z="-240"/>
-    <long_desc text="Appears to be a slighty dated Arvonian model that was exported by them a few years back. Displacement: 0.015 kt. Armament: 2 light beams."/>
+    <!--<impulse_point x="-124" y="-6" z="-248"/>
+    <impulse_point x=" 124" y="-6" z="-248"/>
+    <maneuver_point x="-177" y="-6" z="-132"/>
+    <maneuver_point x=" 177" y="-6" z="-132"/>-->										 
+    <long_desc text="Appears to be a slighty dated Arvonian model that was exported by them a few years back. ^Displacement: 0.015 kt. Armament: 2 light beams."/>
   </vessel>
 	
     <vessel    uniqueID="7713"    side="21"       classname="Bomber" broadType="singleseat">
@@ -3782,6 +3797,10 @@
     <engine_port x="0" y="0" z="-230"/>
     <engine_port x="92" y="-7" z="-240"/>
     <engine_port x="-92" y="-7" z="-240"/>
+	<!--<impulse_point x="-50.33" y="2.5" z="-120.11"/>
+    <impulse_point x=" 50.33" y="2.5" z="-120.11"/>
+    <maneuver_point x="-147.3" y="-5.25" z="-47.5"/>
+    <maneuver_point x=" 147.3" y="-5.25" z="-47.5"/> -->												   
     <long_desc text="Displacement: 0.015 kt. Armament: 1 light beams. 4 Wing-mounted Drones"/>
   </vessel>
 	
@@ -3798,12 +3817,12 @@
     <impulse_point x="-56.31" y="-16.16" z="-409.5"/>
     <maneuver_point x="182.37" y="-17.78" z="202.89"/>
     <maneuver_point x="-182.37" y="-17.78" z="202.89"/>
-    <long_desc text="Static, multi-role platform. Various armaments. Has a shuttle/fighter launch bay."/>
+    <long_desc text="Static, multi-role platform. Various armaments. ^Has a shuttle/fighter launch bay."/>
   </vessel>
 	
 	<!--Sechatzal Ships-->
 	
-<vessel uniqueID="7750" side="22" classname="Dusk" broadType="small">
+<vessel uniqueID="7750" side="22" classname="Spectre" broadType="small">
     <art meshfile="dat/TSN/Neutrals/Stealth_Frigate.dxs" diffuseFile="dat/TSN/Neutrals/shipHull14.png" glowFile="dat/TSN/Neutrals/shipHull14.png" specularFile="dat/TSN/Neutrals/shipHull14.png" scale="0.4" pushRadius="250"/>
     <shields front="25" back="35"/>
     <performance turnrate="0.004" topspeed="0.4"/>
@@ -3819,10 +3838,10 @@
     <engine_port x=" 90.5" y="-13.25" z="-40"/>
     <engine_port x="-71.75" y="17.5" z="-77"/>
     <engine_port x=" 71.75" y="17.5" z="-77"/>
-    <long_desc text="Dusk class frigate"/> 
+    <long_desc text="Spectre class Frigate"/> 
 </vessel>
 	
-<vessel uniqueID="7751" side="22" classname="Umbra" broadType="Medium">
+<vessel uniqueID="7751" side="22" classname="Ghost" broadType="Medium">
     <art meshfile="dat/TSN/Neutrals/Stealth_Cruiser.dxs" diffuseFile="dat/TSN/Neutrals/shipHull14.png" glowFile="dat/TSN/Neutrals/shipHull14.png" specularFile="dat/TSN/Neutrals/shipHull14.png" scale="0.5" pushRadius="250"/>
     <shields front="50" back="75"/>
     <performance turnrate="0.003" topspeed="0.4"/>
@@ -3837,10 +3856,10 @@
     <maneuver_point x=" 63.85" y="5.65" z="121.8"/>
     <engine_port x="-29" y="25.56" z="-135.11"/>
     <engine_port x=" 29" y="25.56" z="-135.11"/>
-    <long_desc text="Umbra class cruiser"/> 
+    <long_desc text="Ghost class Cruiser"/> 
 </vessel>
 	
-    <vessel uniqueID="7752" side="22" classname="Eclipse" broadType="Medium">
+    <vessel uniqueID="7752" side="22" classname="Wraith" broadType="Medium">
     <art meshfile="dat/TSN/Neutrals/Stealth_Dread.dxs" diffuseFile="dat/TSN/Neutrals/shipHull14.png" glowFile="dat/TSN/Neutrals/shipHull14.png" specularFile="dat/TSN/Neutrals/shipHull14.png" scale="0.6" pushRadius="250"/>
     <shields front="75" back="100"/>
     <performance turnrate="0.002" topspeed="0.3"/>
@@ -3855,6 +3874,6 @@
     <maneuver_point x=" 83.77" y="8.71" z="21.22"/>
     <engine_port x="-31.43" y="16.33" z="-232.01"/>
     <engine_port x=" 31.43" y="16.33" z="-232.01"/>
-    <long_desc text="Eclipse class dreadnought with stealth capabilities"/> 
+    <long_desc text="Wraith class Stealthed Dreadnought"/> 
   </vessel>
 </vessel_data>
