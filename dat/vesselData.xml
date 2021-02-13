@@ -1370,7 +1370,7 @@
   <!--******************************MOD bases and static defenses 1050 - 1499**************************************** -->
   <!--**USFP Bases 1050 - 1099**--> 
   <vessel uniqueID="1050" side="9" classname="Factory" broadType="static industrial">
-    <art meshfile="dat/TSN//USFP/factory.dxs" diffuseFile="dat/TSN/USFP/factory_color.png" glowFile="dat/TSN/USFP/factory_glow.png" specularFile="dat/TSN/USFP/factory_spec.png" scale="0.4" pushRadius="150" />
+    <art meshfile="dat/TSN/USFP/factory.dxs" diffuseFile="dat/TSN/USFP/factory_color.png" glowFile="dat/TSN/USFP/factory_glow.png" specularFile="dat/TSN/USFP/factory_spec.png" scale="0.4" pushRadius="150" />
 	<!-- Weapons and Shields modified (1/4)-->
     <shields front="78" back="78" />
     <performance turnrate="0.0" topspeed="0.0" />
@@ -1435,6 +1435,15 @@
     <production coeff="0.5"/>
     <performance turnrate="0.000" topspeed="0.0"/>
   </vessel>
+	
+	  <vessel uniqueID="1057" side="9" classname="Jump Gate" broadType="static industrial">
+    <art meshfile="dat/TSN//USFP/TSNGateMk2.dxs" diffuseFile="dat/TSN/USFP/TSNGateMk2.png" glowFile="dat/TSN/USFP/TSNGateMk2Glow.png" specularFile="dat/TSN/USFP/TSNGateMk2Spec.png" scale="0.4" pushRadius="150" />
+	<!-- Weapons and Shields modified (1/4)-->
+    <shields front="1500" back="1500" />
+    <performance turnrate="0.0" topspeed="0.0" />
+    <long_desc text="Mk2 Jump point Stabilisation and teathering equipment, other wise known as a Jump Gate" />
+  </vessel>
+
   
   <!--**Hjorden Bases 1100 - 1149**-->
   <vessel uniqueID="1100" side="10" classname="Civilian Base" broadType="base">
