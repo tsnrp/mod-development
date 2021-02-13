@@ -37,7 +37,7 @@ To Enable just the UI elements, run the "zUI Enable.bat" file. This will replace
 ==================================================
 Details of Licensed Use of Models
 ------------------------------------------------
-1) GasExtractor, TSNGateMk2, XX & YY are Licensed models and textures. License held by Fish Evans on behalf of TSN Mod CGTR 3278806 from CGtrader Package ID 446961. Useage reserved for TSN Mod/Community Projects. 2021-01-25 
+1) GasExtractor, TSNGateMk2, ScanPost & Hegmony Dry Dock are Licensed models and textures. License held by Fish Evans on behalf of TSN Mod CGTR 3278806 from CGtrader Package ID 446961. Useage reserved for TSN Mod/Community Projects. 2021-01-25 
 
 
 
