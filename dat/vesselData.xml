@@ -1437,7 +1437,7 @@
   </vessel>
 	
 	  <vessel uniqueID="1057" side="9" classname="Jump Gate" broadType="static industrial">
-    <art meshfile="dat/TSN//USFP/TSNGateMk2.dxs" diffuseFile="dat/TSN/USFP/TSNGateMk2.png" glowFile="dat/TSN/USFP/TSNGateMk2Glow.png" specularFile="dat/TSN/USFP/TSNGateMk2Spec.png" scale="0.5" pushRadius="1" />
+    <art meshfile="dat/TSN//USFP/TSNGateMk2.dxs" diffuseFile="dat/TSN/USFP/TSNGateMk2.png" glowFile="dat/TSN/USFP/TSNGateMk2Glow.png" specularFile="dat/TSN/USFP/TSNGateMk2Spec.png" scale="0.9" pushRadius="1" />
 	<!-- Weapons and Shields modified (1/4)-->
     <shields front="1500" back="1500" />
     <performance turnrate="0.0" topspeed="0.0" />
@@ -1558,12 +1558,13 @@
     <long_desc text="Industrial Faciity that extracts usefull gasses and rare materials from Nebulars and other pockets of fine molecular matter" />
   </vessel>
 	
-		  <vessel uniqueID="1357" side="15" classname="Sensor Post" broadType="static network">
+		  <vessel uniqueID="1357" side="15" classname="Logistics Post" broadType="static network">
     <art meshfile="dat/TSN/Hegemony/ScanPost.dxs" diffuseFile="dat/TSN/Hegemony/ScanPostDiff.png" glowFile="dat/TSN/Hegemony/ScanPostGlow.png" specularFile="dat/TSN/Hegemony/ScanPostSpecular.png" scale="0.7" pushRadius="1" />
 	<!-- Weapons and Shields modified (1/4)-->
     <shields front="300" back="300" />
+<beam_port x="0" y="0" z="0" damage="7" arcwidth="4" cycletime="2.0" range="100"/>
     <performance turnrate="0" topspeed="0" />
-    <long_desc text="Post used priciply for Customs inspections and decontamination of Tantins (that is to say the massive ionisation of the entrie hull to kill the pests)" />
+    <long_desc text="This mini station can deep scan a ship for Customs inspections, Has a large cargo facility for the sorting and tempoary storing of cargo bound for other destinations and can irradiate ships to decontaminate Tantin infestation. /n Do NOT close to 100 Units or less as the radiation emiters can be weaponised. Its been Nick named the Death Summoner by Pirates and smugglers" />
   </vessel>
 	
 			  <vessel uniqueID="1358" side="15" classname="Dry Dock" broadType="static network">
@@ -1571,7 +1572,7 @@
 	<!-- Weapons and Shields modified (1/4)-->
     <shields front="300" back="300" />
     <performance turnrate="0" topspeed="0" />
-    <long_desc text="Final Assembely area for new Hegmoney Ships and the overhauling of older hulls" />
+    <long_desc text="Final Assembely area for new Hegmoney Ships and the overhauling of older hulls. Can deal with up to 6 ships each of a mass of up to 220Kt. /n incredibly speedy at ship construction and repair at full capacity can finish a new cruiser once a day or a Command ship once per 2 weeks." />
   </vessel>
 
    <!--**Free/Ulikai Bases 1400 - 1450**-->  
