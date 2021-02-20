@@ -1679,7 +1679,7 @@
    <!-- Weapons and Shields modified (1/4)-->
     <shields front="88" back="88" />
     <performance turnrate="0.0" topspeed="0.0" />
-    <long_desc text="Micro G industrial refinery" />
+    <long_desc text="Ore Proccessing and mining Station." />
   </vessel>
 
   <vessel uniqueID="1409" side="19" classname="Ship Yard" broadType="static industrial">
@@ -2252,6 +2252,27 @@
 	<maneuver_point x="-40.01" y="192.60" z="247.19"/>
     <long_desc text="Armoured kralien freighter. Predominatly used as a military supply vessel."/>
   </vessel>
+	
+ <vessel uniqueID="2102" side="15" classname="Tractor Tug" broadType="transport">
+<art meshfile="dat/TSN/Hegemony/hegemony_tug.dxs" diffuseFile="dat/TSN/Hegemony/tug_diffuse.png" glowFile="dat/TSN/Hegemony/tug_glow.png" specularFile="dat/TSN/Hegemony/tug_specular.png" scale="0.2" pushRadius="150" />
+
+<shields front="10" back="10" />
+<performance turnrate="0.002" topspeed="0.3"/>
+<beam_port x="0" y="-35.07" z="231.22" damage="0.10" arcwidth="0.2" cycletime="12.0" range="700"/>
+<engine_port x="76.91" y="14.56" z="-236.64" />
+<engine_port x="-76.91" y="14.56" z="-236.64" />
+<engine_port x="66.15" y="-6.29" z="-227.00" />
+<engine_port x="-66.15" y="-6.29" z="-227.00" />
+<engine_port x="86.62" y="-6.14" z="-225.20" />
+<engine_port x="-86.62" y="-6.14" z="-225.20" />
+<engine_port x="76.31" y="-26.30" z="-217.07" />
+<engine_port x="-76.31" y="-26.30" z="-217.07" />
+<impulse_point x="75.90" y="-5.40" z="-225.02"/>
+<impulse_point x="-75.90" y="-5.40" z="-225.02"/>
+<maneuver_point x="145.28" y="18.23" z="9.21"/>
+<maneuver_point x="-145.28" y="18.23" z="9.21"/>
+<long_desc text="For its Size the Tractor Tug has the most engine power avalible thought its design top speed is relativly low. Used for the towing of normaly "Fixed" instullations, large masses and disabled vessles, /n Displacement: 4Kt. /n Armament: 1 beam, optimised for salvage use, minimal threat."/>
+	</vessel>	
   
   <!-- ****************************** Arvonian VESSELS 3000 - 3099**************************************** -->
   <vessel    uniqueID="3000"    side="3"       classname="Fighter" broadType="singleseat">
