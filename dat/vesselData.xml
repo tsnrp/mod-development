@@ -1551,20 +1551,21 @@
   </vessel>
 	
 	  <vessel uniqueID="1356" side="15" classname="Gas Harvestor" broadType="static network">
-    <art meshfile="dat/TSN/Hegemony/GasExtractor.dxs" diffuseFile="dat/TSN/Hegemony/GasExtractorRedDif.png" glowFile="dat/TSN/Hegemony/GasExtractorGlow.png" specularFile="dat/TSN/Hegemony/GasExtractorSpec.png" scale="0.45" pushRadius="150" />
+    <art meshfile="dat/TSN/Hegemony/GasExtractor.dxs" diffuseFile="dat/TSN/Hegemony/GasExtractorRedDif.png" glowFile="dat/TSN/Hegemony/GasExtractorGlow.png" specularFile="dat/TSN/Hegemony/GasExtractorSpec.png" scale="0.35" pushRadius="120" />
 	<!-- Weapons and Shields modified (1/4)-->
     <shields front="300" back="300" />
     <performance turnrate="0" topspeed="0"/>
-    <long_desc text="Industrial Faciity that extracts usefull gasses and rare materials from Nebulars and other pockets of fine molecular matter" />
+    <long_desc text="Industrial facility that extracts useful gasses and rare materials from nebulars and other pockets of fine molecular matter in a near zero G environment. " />
   </vessel>
 	
 		  <vessel uniqueID="1357" side="15" classname="Logistics Post" broadType="static network">
     <art meshfile="dat/TSN/Hegemony/ScanPost.dxs" diffuseFile="dat/TSN/Hegemony/ScanPostDiff.png" glowFile="dat/TSN/Hegemony/ScanPostGlow.png" specularFile="dat/TSN/Hegemony/ScanPostSpecular.png" scale="0.7" pushRadius="1" />
 	<!-- Weapons and Shields modified (1/4)-->
     <shields front="300" back="300" />
-<beam_port x="0" y="0" z="0" damage="7" arcwidth="4" cycletime="2.0" range="100"/>
+ <!-- <beam_port x="0" y="0" z="0" damage="7" arcwidth="4" cycletime="2.0" range="150"/>Yes 4! creates a non functioning satanic Star see disc -->
+
     <performance turnrate="0" topspeed="0" />
-    <long_desc text="This mini station can deep scan a ship for Customs inspections, Has a large cargo facility for the sorting and tempoary storing of cargo bound for other destinations and can irradiate ships to decontaminate Tantin infestation. /n Do NOT close to 100 Units or less as the radiation emiters can be weaponised. Its been Nick named the Death Summoner by Pirates and smugglers" />
+    <long_desc text="This mini station can deep scan a ship for Customs inspections, Has a large cargo facility for the sorting and temporary storing of cargo bound for other destinations. and can irradiate ships to decontaminate Tantin infestation. /n Do NOT close to 100 Units or less unless authorised as the radiation emitters can be weaponized." />
   </vessel>
 	
 			  <vessel uniqueID="1358" side="15" classname="Dry Dock" broadType="static network">
@@ -1572,7 +1573,7 @@
 	<!-- Weapons and Shields modified (1/4)-->
     <shields front="300" back="300" />
     <performance turnrate="0" topspeed="0" />
-    <long_desc text="Final Assembely area for new Hegmoney Ships and the overhauling of older hulls. Can deal with up to 6 ships each of a mass of up to 220Kt. /n incredibly speedy at ship construction and repair at full capacity can finish a new cruiser once a day or a Command ship once per 2 weeks." />
+    <long_desc text="Final Assembly area for new Hegemony Ships and the overhauling of older hulls. Has 6 Slips that can handle up to command ships. /n Incredibly speedy at ship construction and repair at full capacity can finish a new cruiser once a day or a Command ship once per 2 weeks." />
   </vessel>
 
    <!--**Free/Ulikai Bases 1400 - 1450**-->  
