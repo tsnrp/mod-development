@@ -1594,7 +1594,7 @@
     <long_desc text="This Asteriod fragment has been shaped and sprayed with a hardening epoxy for use against a planet or fixed installation. It can be destroyed with consentrated beam fire but when launched is generaly too fast for torpedos to be effective. mines may have minimal effect. it does have some cold gas thrusters for course corrections."/>
   </vessel>	
 	
-	<vessel uniqueID="1361" side="19" classname="Defence Fort" broadType="static carrier">
+	<vessel uniqueID="1361" side="15" classname="Defence Fort" broadType="static carrier">
    <art     meshfile="dat/kralien-station.dxs"    diffuseFile="dat/kraliens_station_color.png"
              glowFile="dat/kraliens_station_glow.png"    specularFile="dat/kraliens_station_spec.png" scale="0.3" pushRadius="250"/>
     <!-- Weapons and Shields modified (1/4)-->
