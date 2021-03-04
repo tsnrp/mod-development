@@ -2313,15 +2313,15 @@
 	</vessel>	
   
   <!-- ****************************** Arvonian VESSELS 3000 - 3099**************************************** -->
-  <vessel    uniqueID="3000"    side="3"       classname="Fighter" broadType="singleseat">
-    <art     meshfile="dat/ENE_Matt3A.dxs"    diffuseFile="dat/ship4A_diffuse.png"
+  <vessel    uniqueID="3000"    side="3"       classname="Fighter Wing" broadType="singleseat">
+    <art     meshfile="dat/TSN/Hegemony/AvFighterWing.dxs"    diffuseFile="dat/ship4A_diffuse.png"
              glowFile="dat/ship4A_glow.png"    specularFile="dat/ship4A_specular.png" scale="0.05" pushRadius="80"/>
    <!-- Weapons and Shields modified (1/4)-->
-	<shields front="0" back="0"/>
-    <performance turnrate="0.01" topspeed="1.2"/>
+	<shields front="10" back="10"/>
+    <performance turnrate="0.011" topspeed="1.2"/>
     <fleet_ai commonality="100"/>
-    <beam_port x=" 111" y="-1" z="217" damage="0.25" arcwidth="0.3" cycletime="5.0" range="800"/>
-    <beam_port x="-111" y="-1" z="217" damage="0.25" arcwidth="0.3" cycletime="5.0" range="800"/>
+    <beam_port x=" 111" y="-1" z="217" damage="0.35" arcwidth="0.35" cycletime="2.5" range="800"/>
+    <beam_port x="-111" y="-1" z="217" damage="0.35" arcwidth="0.35" cycletime="2.5" range="800"/>
     <engine_port x="0" y="0" z="-230"/>
     <engine_port x="92" y="-7" z="-240"/>
     <engine_port x="-92" y="-7" z="-240"/>
@@ -2329,7 +2329,7 @@
     <impulse_point x=" 124" y="-6" z="-248"/>
     <maneuver_point x="-177" y="-6" z="-132"/>
     <maneuver_point x=" 177" y="-6" z="-132"/>
-    <long_desc text="Displacement: 0.015 kt. Armament: 2 light beams."/>
+    <long_desc text="Wing of 4 Fighters Displacement: 0.015 kt. Armament: 2 light beams."/>
   </vessel>
 
   <vessel    uniqueID="3001"    side="3"       classname="Light Carrier" broadType="carrier">
@@ -2338,7 +2338,7 @@
    <!-- Weapons and Shields modified (1/4)-->
 	<shields front="30" back="30"/>
     <performance turnrate="0.003" topspeed="0.3"/>
-    <carrierload baycount="8"/>
+    <carrierload baycount="2"/><!-- Modded from 8 -->
     <fleet_ai commonality="50"/>
     <beam_port x=" 116" y="-7" z="246" damage="0.25" arcwidth="0.3" cycletime="6.0" range="1200"/>
     <beam_port x="-116" y="-7" z="246" damage="0.25" arcwidth="0.3" cycletime="6.0" range="1200"/>
@@ -2352,7 +2352,7 @@
     <impulse_point x="-168" y="-27" z="-76"/>
     <maneuver_point x=" 162" y="-26" z="79"/>
     <maneuver_point x="-162" y="-26" z="79"/>
-    <long_desc text="Displacement: 25 kt. Armament: 4 medium beams. Complement: 4 fighters."/>
+    <long_desc text="Displacement: 25 kt. Armament: 4 medium beams. Complement: 2 fighter wings."/>
   </vessel>
 
   <vessel    uniqueID="3002"    side="3"       classname="Carrier" broadType="carrier">
@@ -2361,7 +2361,7 @@
     <!-- Weapons and Shields modified (1/4)-->
 	<shields front="50" back="50"/>
     <performance turnrate="0.003" topspeed="0.3"/>
-    <carrierload baycount="12"/>
+    <carrierload baycount="4"/><!-- Modded from 12 -->
     <fleet_ai commonality="25"/>
     <beam_port x=" 125" y="-17" z="139" damage="0.25" arcwidth="0.3" cycletime="6.0" range="1400"/>
     <beam_port x="-125" y="-17" z="139" damage="0.25" arcwidth="0.3" cycletime="6.0" range="1400"/>
@@ -2376,7 +2376,7 @@
     <impulse_point x="-82" y="9" z="149"/>
     <maneuver_point x=" 140" y="-22" z="-166"/>
     <maneuver_point x="-140" y="-22" z="-166"/>
-    <long_desc text="Displacement: 45 kt. Armament: 6 long-range beams. Complement: 6 fighters."/>
+    <long_desc text="Displacement: 45 kt. Armament: 6 long-range beams. Complement: 4 fighter wings."/>
   </vessel>
   
     <!-- ** MOD Arvonian VESSELS 3100 - 3200** -->
@@ -2385,12 +2385,12 @@
     <!-- Weapons and Shields modified (1/4)-->
 	<shields front="500" back="500"/>
     <performance turnrate="0.003" topspeed="0.3"/>
-    <carrierload baycount="8"/>
+    <carrierload baycount="4"/><!-- Modded from 8 added an extra wing and pipped up the beams sllightly to compensate for loss of drone launcher-->
     <fleet_ai commonality="0"/>
-    <drone_port x="0" y="-10" z="0" damage="7.5" cycletime="30.0" range="5000"/>
-    <beam_port x="-80" y="-7" z="200" damage="0.25" arcwidth="0.3" cycletime="6.0" range="1400"/>
-    <beam_port x="80" y="-7" z="200" damage="0.25" arcwidth="0.3" cycletime="6.0" range="1400"/>
-    <beam_port x="0" y="-7" z="-180" damage="0.25" arcwidth="0.3" cycletime="6.0" range="1400"/>
+    <!--<drone_port x="0" y="-10" z="0" damage="7.5" cycletime="30.0" range="5000"/> -->
+    <beam_port x="-80" y="-7" z="200" damage="0.25" arcwidth="0.3" cycletime="5.0" range="1400"/>
+    <beam_port x="80" y="-7" z="200" damage="0.25" arcwidth="0.3" cycletime="5.0" range="1400"/>
+    <beam_port x="0" y="-7" z="-180" damage="0.25" arcwidth="0.3" cycletime="5.0" range="1400"/>
     <engine_port x="-63" y="-20" z="-161"/>
     <engine_port x="63" y="-20" z="-161"/>
     <engine_port x="144" y="-31" z="155"/>
@@ -2399,7 +2399,7 @@
     <impulse_point x="63" y="-20" z="-161"/>
     <maneuver_point x="144" y="-31" z="155"/>
     <maneuver_point x="-144" y="-31" z="155"/>
-    <long_desc text="Displacement: 65 kt. Armament: 3 long range beams. 1 Drone Launcher. Complement: 8 fighters."/>
+    <long_desc text="Displacement: 65 kt. Armament: 3 long range beams. Complement: 4 fighter wings."/>
   </vessel>
 
   <!-- ****************************** Torgoth VESSELS 4000 - 4099**************************************** -->
