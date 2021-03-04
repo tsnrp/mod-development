@@ -1,5 +1,5 @@
 <!-- vessel_data is the big wrapper for all the vessel objects -->
-<!-- TSN Mod Version 2.016 -->
+<!-- TSN Mod Version 2.017 -->
 <!--
  See GitHub reference for patch notes: https://github.com/tsnrp/mod
 -->
@@ -1587,7 +1587,7 @@
 	</vessel>
 	
 	  <vessel uniqueID="1360" side="15" classname="Asteroid Shell" broadType="base">
-	  <performance turnrate="0.0005" topspeed="1.5"/>
+	  <performance turnrate="0.0005" topspeed="1.7"/>
     <art meshfile="dat/TSN/Hegemony/asteroid.dxs" diffuseFile="dat/asteroidTexture.png" glowFile="dat/asteroidTexture.png" specularFile="dat/asteroidTexture.png" scale="0.6" pushRadius="400"/>
     <!-- To work correctly this Enemy will require special AI, It should target stations exclusivly or be set on a fixed course and ignore everything-->
 	<shields front="250" back="250"/>
@@ -2314,14 +2314,14 @@
   
   <!-- ****************************** Arvonian VESSELS 3000 - 3099**************************************** -->
   <vessel    uniqueID="3000"    side="3"       classname="Fighter Wing" broadType="singleseat">
-    <art     meshfile="dat/TSN/Hegemony/AvFighterWing.dxs"    diffuseFile="dat/ship4A_diffuse.png"
+    <art     meshfile="dat/ENE_Matt3A.dxs"      diffuseFile="dat/ship4A_diffuse.png"
              glowFile="dat/ship4A_glow.png"    specularFile="dat/ship4A_specular.png" scale="0.05" pushRadius="80"/>
-   <!-- Weapons and Shields modified (1/4)-->
+   <!-- Weapons and Shields modified (1/4)  meshfile="dat/TSN/Hegemony/AvFighterWing.dxs" Not in use do to observed issue with model not orbiiitgn needs further investigation --> 
 	<shields front="10" back="10"/>
-    <performance turnrate="0.011" topspeed="1.2"/>
+    <performance turnrate="0.01" topspeed="1.2"/>
     <fleet_ai commonality="100"/>
-    <beam_port x=" 111" y="-1" z="217" damage="0.35" arcwidth="0.35" cycletime="2.5" range="800"/>
-    <beam_port x="-111" y="-1" z="217" damage="0.35" arcwidth="0.35" cycletime="2.5" range="800"/>
+    <beam_port x=" 111" y="-1" z="217" damage="0.4" arcwidth="0.35" cycletime="2.5" range="900"/>
+    <beam_port x="-111" y="-1" z="217" damage="0.4" arcwidth="0.35" cycletime="2.5" range="900"/>
     <engine_port x="0" y="0" z="-230"/>
     <engine_port x="92" y="-7" z="-240"/>
     <engine_port x="-92" y="-7" z="-240"/>
