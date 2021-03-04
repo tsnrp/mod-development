@@ -1588,7 +1588,7 @@
 	
 	  <vessel uniqueID="1360" side="15" classname="Asteroid Shell" broadType="base">
 	  <performance turnrate="0.0005" topspeed="1.5"/>
-    <art meshfile="dat/asteroid.dxs" diffuseFile="dat/asteroidTexture.png" glowFile="dat/asteroidTexture.png" specularFile="dat/asteroidTexture.png" scale="1.0" pushRadius="400"/>
+    <art meshfile="dat/TSN/Hegemony/asteroid.dxs" diffuseFile="dat/asteroidTexture.png" glowFile="dat/asteroidTexture.png" specularFile="dat/asteroidTexture.png" scale="1.0" pushRadius="400"/>
     <!-- To work correctly this Enemy will require special AI, It should target stations exclusivly or be set on a fixed course and ignore everything-->
 	<shields front="250" back="250"/>
     <long_desc text="This asteroid fragment has been shaped and sprayed with a hardening epoxy for a devastating effect in the multi-megaton range against anything they hit. It can be destroyed with concentrated beam fire, but when launched is generally too fast for torpedoes to be effective; mines may have minimal effect. It does have some cold gas thrusters for course corrections."/>
