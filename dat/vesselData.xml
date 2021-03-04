@@ -1579,7 +1579,7 @@
   </vessel>
 	
 	 <vessel uniqueID="1359" side="15" classname="Kinetic Launcher" broadType="static network">
-	<art meshfile="dat/TSN/Hegemony/AstroCannon.dxs" diffuseFile="dat/TSN/Hegemony/AstroCannon_diff.png" glowFile="dat/TSN/Hegemony/AstroCannon_glow.png" specularFile="dat/TSN/Hegemony/AstroCannon_spec.png" scale="0.5" pushRadius="250" />
+	<art meshfile="dat/TSN/Hegemony/AstroCannon.dxs" diffuseFile="dat/TSN/Hegemony/AstroCannon_diff.png" glowFile="dat/TSN/Hegemony/AstroCannon_glow.png" specularFile="dat/TSN/Hegemony/AstroCannon_spec.png" scale="0.6" pushRadius="250" />
 		 <!-- Weapons and Shields modified (1/4)-->
 		 <beam_port x="-171" y="23" z="-4" damage="0.6" arcwidth="1" cycletime="6.0" range="5000"/>
 		 <shields front="2000" back="2000" /><performance turnrate="0.0005" topspeed="0.01" />
@@ -1588,7 +1588,7 @@
 	
 	  <vessel uniqueID="1360" side="15" classname="Asteroid Shell" broadType="base">
 	  <performance turnrate="0.0005" topspeed="1.5"/>
-    <art meshfile="dat/TSN/Hegemony/asteroid.dxs" diffuseFile="dat/asteroidTexture.png" glowFile="dat/asteroidTexture.png" specularFile="dat/asteroidTexture.png" scale="1.0" pushRadius="400"/>
+    <art meshfile="dat/TSN/Hegemony/asteroid.dxs" diffuseFile="dat/asteroidTexture.png" glowFile="dat/asteroidTexture.png" specularFile="dat/asteroidTexture.png" scale="0.6" pushRadius="400"/>
     <!-- To work correctly this Enemy will require special AI, It should target stations exclusivly or be set on a fixed course and ignore everything-->
 	<shields front="250" back="250"/>
     <long_desc text="This asteroid fragment has been shaped and sprayed with a hardening epoxy for a devastating effect in the multi-megaton range against anything they hit. It can be destroyed with concentrated beam fire, but when launched is generally too fast for torpedoes to be effective; mines may have minimal effect. It does have some cold gas thrusters for course corrections."/>
@@ -1596,7 +1596,7 @@
 	
 	<vessel uniqueID="1361" side="15" classname="Defence Fort" broadType="static carrier">
    <art     meshfile="dat/kralien-station.dxs"    diffuseFile="dat/kraliens_station_color.png"
-             glowFile="dat/kraliens_station_glow.png"    specularFile="dat/kraliens_station_spec.png" scale="0.3" pushRadius="250"/>
+             glowFile="dat/kraliens_station_glow.png"    specularFile="dat/kraliens_station_spec.png" scale="0.25" pushRadius="250"/>
     <!-- Weapons and Shields modified (1/4)-->
 	<shields front="260" back="260"/>
     <performance turnrate="0.0" topspeed="0.0"/>
